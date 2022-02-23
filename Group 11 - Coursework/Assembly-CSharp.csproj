@@ -54,9 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
+    <Compile Include="Assets\Scripts\ErenJaeger.cs" />
     <Compile Include="Assets\Scripts\AddIntoBowl.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch.cs" />
-    <Compile Include="Assets\Scripts\ErenJaeger.cs" />
+    <Compile Include="Assets\Scripts\NavMeshPlayerController.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
