@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bowl
   - Hand
+  - Egg
+  - EggRack
   layers:
   - Default
   - TransparentFX

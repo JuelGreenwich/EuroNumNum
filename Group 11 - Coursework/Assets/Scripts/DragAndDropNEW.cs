@@ -9,7 +9,6 @@ public class DragAndDropNEW : MonoBehaviour
     private void OnMouseDown() //This function is called on Colliders marked as Trigger that also have a RigidBody
     {
         isPicked = true;
-        //print(isPicked);
     }
 
     public void OnMouseUp()
@@ -19,7 +18,7 @@ public class DragAndDropNEW : MonoBehaviour
 
     void Update()
     {
-        print(isPicked);
+        //print(isPicked);
         if (isPicked)
         {
             var inputMousePos = Input.mousePosition;

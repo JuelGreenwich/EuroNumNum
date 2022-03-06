@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\ColliderCheck.cs" />
-    <Compile Include="Assets\Scripts\ErenJaeger.cs" />
     <Compile Include="Assets\Scripts\AddIntoBowl.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch.cs" />
     <Compile Include="Assets\Scripts\DragAndDropNEW.cs" />
@@ -64,7 +63,8 @@
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\Pickable.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
-    <Compile Include="Assets\Scripts\MikasaSuCasa.cs" />
+    <Compile Include="Assets\Scripts\SpriteChange.cs" />
+    <Compile Include="Assets\Scripts\EggStop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
