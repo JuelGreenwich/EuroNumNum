@@ -1,0 +1,637 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52113
+Successfully changed project path to: /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-09 20:44:49.750 Unity[43726:1868481] (null) preferred device: Apple M1 (high power)
+2022-03-09 20:44:49.750 Unity[43726:1868481] Metal devices available: 1
+2022-03-09 20:44:49.750 Unity[43726:1868481] 0: Apple M1 (high power)
+2022-03-09 20:44:49.750 Unity[43726:1868481] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56726
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001595 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1477ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2249ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1866ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (994ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (745ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.006790 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.011609 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 160.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 3.018584 ms (FindLiveObjects: 0.210417 ms CreateObjectMapping: 0.053209 ms MarkObjects: 2.263500 ms  DeleteObjects: 0.490375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa19fb8bbbf8be751d581aaf90aae706') in 0.054507 seconds 
+  Import took 0.059270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.444147 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac248357b173808f9bb6504a218d9b2') in 0.018424 seconds 
+  Import took 0.030304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.328939 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68234b310df49ff63ee14e9f403e883c') in 0.007689 seconds 
+  Import took 0.021423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.228697 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd0527b86d9e982ce4b08128407761') in 0.010728 seconds 
+  Import took 0.027415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.217312 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30834dcdd679d0c3a61fb1ebc7fedc29') in 0.003582 seconds 
+  Import took 0.009135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.199147 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58a67cec2c1052cdaec1abad111876a') in 0.003643 seconds 
+  Import took 0.011682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.752264 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24d41b251862eae4bf82db10824ffc') in 0.025738 seconds 
+  Import took 0.063165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.752494 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0ccfe796bae5c09729fb13ea7ba954') in 0.003742 seconds 
+  Import took 0.009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.298251 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e10615e2c63488a06358e884c8fdc9') in 0.008363 seconds 
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.966246 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc5fbbfacff487fb797fe81dc7e4a12') in 0.005066 seconds 
+  Import took 0.010525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.013236 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5685266a7fb69b931d63ecb7f6475d6') in 0.006360 seconds 
+  Import took 0.015680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.362468 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a703faa8acca31ff53b5bac4d093d5bc') in 0.004488 seconds 
+  Import took 0.009753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.115874 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329b60c72cf0763c5b9cd402e03aa88b') in 0.005744 seconds 
+  Import took 0.010734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.682328 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d5203a9746f66cf6019d6cfb43311b') in 0.004192 seconds 
+  Import took 0.009160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.097207 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba05090a9a38690198f3bb67ef75db4') in 0.007685 seconds 
+  Import took 0.020740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.133593 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf8e8f5df156a93987dbdb97e63fa57') in 0.005929 seconds 
+  Import took 0.010388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.577719 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b183399a797ee6cd0a0bdd96b312b5') in 0.006072 seconds 
+  Import took 0.010760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.228859 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd65822db5b1080f594c1d53f5ba3e0') in 0.005409 seconds 
+  Import took 0.012435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.283836 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3688e7d9af50209d343d4864efd570') in 0.004648 seconds 
+  Import took 0.008696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.587854 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cf03bb38016b268c36728d89253ebc') in 0.009724 seconds 
+  Import took 0.021183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 999.456323 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35aa259fc10ec9433dea484c999b37d') in 0.005348 seconds 
+  Import took 0.018232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.784493 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4a6202dbba355a0c52cebc60130803') in 0.004783 seconds 
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1062.987297 seconds.
+  path: Assets/Scenes/GameLevels/MainMenu.unity
+  artifactKey: Guid(4a8697a5acb12d4479365b3b2d7fb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/MainMenu.unity using Guid(4a8697a5acb12d4479365b3b2d7fb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ad6e0e549c158bb73406ecba7fac3') in 0.011772 seconds 
+  Import took 0.029535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5965.157197 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f450fb2c39c912b687c6c04cb1b8d18') in 0.009123 seconds 
+  Import took 0.020748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.427229 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898143e070e8fc21db93d6b118724811') in 0.003814 seconds 
+  Import took 0.010863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.706695 seconds.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc7abdf55fdc2926218b57021c4f3b2') in 0.009100 seconds 
+  Import took 0.028027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.199173 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7aaabe5735abf33ddc48a22eb71c33') in 0.007651 seconds 
+  Import took 0.024800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.734638 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaba85d7fafa0f9c02cb6a645758372') in 0.004144 seconds 
+  Import took 0.010258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1974.514865 seconds.
+  path: Assets/Ingredients/Denmark/Materials
+  artifactKey: Guid(cd18a30aebace40579639a13b663555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/Materials using Guid(cd18a30aebace40579639a13b663555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaf801bc216f9e5af4c469cd5b2bca5') in 0.011519 seconds 
+  Import took 0.028289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024543 seconds.
+  path: Assets/Ingredients/Denmark/Materials/BreadPackage.mat
+  artifactKey: Guid(a24b05e52e4b542d4ba766799c67d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/Materials/BreadPackage.mat using Guid(a24b05e52e4b542d4ba766799c67d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6faab3f133ddc441eecbfa3b5110954') in 1.363238 seconds 
+  Import took 1.369346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Ingredients/Denmark/Materials/CayanPaper.mat
+  artifactKey: Guid(f6cdfb2124b564af3b9711c36daf3bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/Materials/CayanPaper.mat using Guid(f6cdfb2124b564af3b9711c36daf3bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ef89c31ec32cbc113cbad27708ba9c') in 0.027497 seconds 
+  Import took 0.034816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 992.483064 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a863194fa10011d81a50d746cf9da5db') in 0.022376 seconds 
+  Import took 0.035402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1747.355873 seconds.
+  path: Assets/Ingredients/CookerCutlery
+  artifactKey: Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery using Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22611c86a3906fce87d5a68bd58a845a') in 0.022779 seconds 
+  Import took 0.037394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.440491 seconds.
+  path: Assets/Ingredients/CookerCutlery/ButterPlate.fbx
+  artifactKey: Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/ButterPlate.fbx using Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0939b64b10f7b2bd246e6c3af27778') in 1.177165 seconds 
+  Import took 1.214525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx
+  artifactKey: Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx using Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bab6546e2844b01c3579a3f72062f8d') in 0.117415 seconds 
+  Import took 0.122015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Ingredients/CookerCutlery/Cookwe.fbx
+  artifactKey: Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/Cookwe.fbx using Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafd601f830e5a9d64a1b1aadfcb116f') in 0.069521 seconds 
+  Import took 0.072594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.242684 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19480af0396c10ff2c3775b5ab38156') in 0.010840 seconds 
+  Import took 0.042416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2589.050998 seconds.
+  path: Assets/Ingredients/Denmark/lemon.png
+  artifactKey: Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/lemon.png using Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc5ce415e65f72cafb5e4f746bf9a5a') in 0.822808 seconds 
+  Import took 0.857443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.926260 seconds.
+  path: Assets/Ingredients/Denmark/lemon.png
+  artifactKey: Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/lemon.png using Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b821de3ead7c3dbaa719655b16c7b95') in 0.089701 seconds 
+  Import took 0.095013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.449152 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c209ce2878f4ac35b480cd46e38f6a5f') in 0.012524 seconds 
+  Import took 0.032037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2877.752477 seconds.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1084ca8aa51fd341ad1716d4ef42e99a') in 0.007810 seconds 
+  Import took 0.021898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.354031 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bdcca9391ed0d022344b7a04b3d4e') in 0.002981 seconds 
+  Import took 0.009176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.152095 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd1192dca6d23298ba3e550f51274ae') in 0.005937 seconds 
+  Import took 0.014494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.287059 seconds.
+  path: Assets/Ingredients/CookerCutlery/pSphere3.prefab
+  artifactKey: Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/pSphere3.prefab using Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab2974a1404ecbeb6e7fca7fceaee42') in 0.781709 seconds 
+  Import took 0.804119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.830575 seconds.
+  path: Assets/Ingredients/Spain/Materials
+  artifactKey: Guid(cf4b08d99bed444fd9fc3ec941ff05ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Spain/Materials using Guid(cf4b08d99bed444fd9fc3ec941ff05ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ffba22ba6768a89c294077e9f5641b') in 0.005617 seconds 
+  Import took 0.019168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 768.730108 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5ee94a858a2274ccb9313233f0bd60') in 0.008788 seconds 
+  Import took 0.021603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.991698 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eced9205080a74375002266f6fe910fa') in 0.005640 seconds 
+  Import took 0.011134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.542269 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffebf80d7a56e598e8b0d1920639e184') in 0.007781 seconds 
+  Import took 0.020974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.954812 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4684b2d76268de1548998a3743fcce80') in 0.010109 seconds 
+  Import took 0.022555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.383574 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0388196a587c1000fd505df96400e97f') in 0.006815 seconds 
+  Import took 0.018957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1040.624634 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eefde14e213114ec9de33b4736484b') in 0.007136 seconds 
+  Import took 0.019473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.497431 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41de1633fad2f385007da7f0eb8f6780') in 0.005441 seconds 
+  Import took 0.011738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.763513 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb2a4599e5186719538382939bdd1c2') in 0.009140 seconds 
+  Import took 0.021473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.862526 seconds.
+  path: Assets/Ingredients/CookerCutlery/SpainPAN.fbx
+  artifactKey: Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/SpainPAN.fbx using Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03019f8abf904b13dedcf49b61d5810a') in 0.104836 seconds 
+  Import took 0.148232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1412.827702 seconds.
+  path: Assets/Ingredients/CookerCutlery/spainPan.fbx
+  artifactKey: Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/spainPan.fbx using Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e045c4abf203673095b6119ef7928') in 0.162016 seconds 
+  Import took 0.177362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.217744 seconds.
+  path: Assets/Scenes/GameLevels/Shop.unity
+  artifactKey: Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Shop.unity using Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac705011328b7459e1ee8300a47441b') in 0.009269 seconds 
+  Import took 0.021592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.709756 seconds.
+  path: Assets/Ingredients/Slovakia/Materials
+  artifactKey: Guid(717d35d6a08724b37a426044e07ad5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Slovakia/Materials using Guid(717d35d6a08724b37a426044e07ad5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56ba877926005ac83e571b70c4f003') in 0.003375 seconds 
+  Import took 0.008307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.251192 seconds.
+  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png
+  artifactKey: Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png using Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e07c5ca312fadd48922a1e1d4e3d1b') in 0.040696 seconds 
+  Import took 0.068659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002612 seconds.
+  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png
+  artifactKey: Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png using Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d402a7dbae25eed459754540b4abc') in 0.039275 seconds 
+  Import took 0.046367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.021519 seconds.
+  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png
+  artifactKey: Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png using Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ada08e29aa4bd0479b1463ffd7dd6d') in 0.022663 seconds 
+  Import took 0.028166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.331103 seconds.
+  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png
+  artifactKey: Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png using Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbaaf04ef6305103105f476a6004f6') in 0.057589 seconds 
+  Import took 0.062919 seconds .
+
