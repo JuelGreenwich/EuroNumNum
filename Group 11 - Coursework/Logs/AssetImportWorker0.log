@@ -1,637 +1,1106 @@
-Unity Editor version:    2020.3.25f1 (9b9180224418)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 11.6 (Build 20G165)
-Darwin version:          20.6.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        8192 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+D:/COURSES YEAR 2/COMP 1847 Group Project/EuroNumNum/Group 11 - Coursework
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52113
-Successfully changed project path to: /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
-/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+65216
+Successfully changed project path to: D:/COURSES YEAR 2/COMP 1847 Group Project/EuroNumNum/Group 11 - Coursework
+D:/COURSES YEAR 2/COMP 1847 Group Project/EuroNumNum/Group 11 - Coursework
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/COURSES YEAR 2/COMP 1847 Group Project/EuroNumNum/Group 11 - Coursework/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-09 20:44:49.750 Unity[43726:1868481] (null) preferred device: Apple M1 (high power)
-2022-03-09 20:44:49.750 Unity[43726:1868481] Metal devices available: 1
-2022-03-09 20:44:49.750 Unity[43726:1868481] 0: Apple M1 (high power)
-2022-03-09 20:44:49.750 Unity[43726:1868481] Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56726
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001595 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 29.17 ms, found 2 plugins.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002647 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.477 seconds
+- Completed reload, in  0.405 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1477ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (405ms)
+		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (218ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (199ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (576ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (124ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005843 seconds.
+Registered in 0.003256 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.246 seconds
+- Completed reload, in  0.709 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2249ms)
-		BeginReloadAssembly (286ms)
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1866ms)
-			LoadAssemblies (223ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (994ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (202ms)
-				ProcessInitializeOnLoadAttributes (745ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.006790 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.011609 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.8 MB.
-System memory in use after: 160.9 MB.
+Unloading 1547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
 
-Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 1987.
-Total: 3.018584 ms (FindLiveObjects: 0.210417 ms CreateObjectMapping: 0.053209 ms MarkObjects: 2.263500 ms  DeleteObjects: 0.490375 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 2.247300 ms (FindLiveObjects: 0.119800 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.042400 ms  DeleteObjects: 0.047100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eefde14e213114ec9de33b4736484b') in 0.014463 seconds 
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.535635 seconds.
   path: Assets/Scenes/GameLevels/Belgium.unity
   artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa19fb8bbbf8be751d581aaf90aae706') in 0.054507 seconds 
-  Import took 0.059270 seconds .
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1084ca8aa51fd341ad1716d4ef42e99a') in 0.013621 seconds 
+  Import took 0.016094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.444147 seconds.
+  Time since last request: 91.109795 seconds.
+  path: Assets/BubbleRainbow-VGdn0.ttf
+  artifactKey: Guid(59cb4f549bcc845ed9e24c02501ba8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BubbleRainbow-VGdn0.ttf using Guid(59cb4f549bcc845ed9e24c02501ba8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61613f9e2a9c4765dcc003b9f03dc312') in 0.378284 seconds 
+  Import took 0.381011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.093931 seconds.
+  path: Assets/Scripts/DragAndDrop
+  artifactKey: Guid(ef3bcbf9128778f4b82060c2a6114096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragAndDrop using Guid(ef3bcbf9128778f4b82060c2a6114096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807b0969cc006edc04547f5b381a192d') in 0.006743 seconds 
+  Import took 0.009627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.731029 seconds.
+  path: Assets/Scripts/DragAndDropNEW.cs
+  artifactKey: Guid(075a9436151b918419060e5c4efb050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragAndDropNEW.cs using Guid(075a9436151b918419060e5c4efb050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02277fc1f6b2f5dc25c97315147690fa') in 0.036898 seconds 
+  Import took 0.039269 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 2.335800 ms (FindLiveObjects: 0.118100 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.163900 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Domain Reload Profiling:
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 2.460200 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.041800 ms MarkObjects: 2.282000 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (682ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 2.417400 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.040000 ms MarkObjects: 2.226900 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 312.329248 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0748cf3cb2a335def61171353d56fdbe') in 0.018282 seconds 
+  Import took 0.020930 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 2.666700 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.042900 ms MarkObjects: 2.479700 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 2.460800 ms (FindLiveObjects: 0.132600 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.266500 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184.784753 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ef9f3ba85c4de4d4bb752a77c8092077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(ef9f3ba85c4de4d4bb752a77c8092077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3d29656e3f265b0eaa1f5bc91ae5c0') in 0.010280 seconds 
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.213573 seconds.
+  path: Assets/Prefabs/HandObject.prefab
+  artifactKey: Guid(bfa900fa87be5274a8dccc57159d45c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HandObject.prefab using Guid(bfa900fa87be5274a8dccc57159d45c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd292cf69e05495d8a8da1a44ea0bcf7c') in 0.058895 seconds 
+  Import took 0.061583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.499553 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877a893c6cd9db34373ff2961f91729') in 0.006690 seconds 
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.714988 seconds.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f7c0871b61a8f1eac4ae326d7b719') in 0.006413 seconds 
+  Import took 0.008969 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (690ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 2.472000 ms (FindLiveObjects: 0.120600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.293900 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.255300 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2d631240908965482a56ca3d9977c6') in 0.014105 seconds 
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 2.629100 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.439900 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003523 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 2.373500 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.039000 ms MarkObjects: 2.178700 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3691.448846 seconds.
   path: Assets/Scenes/GameLevels/Denmark.unity
   artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac248357b173808f9bb6504a218d9b2') in 0.018424 seconds 
-  Import took 0.030304 seconds .
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bdcca9391ed0d022344b7a04b3d4e') in 0.017599 seconds 
+  Import took 0.020559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.328939 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68234b310df49ff63ee14e9f403e883c') in 0.007689 seconds 
-  Import took 0.021423 seconds .
+  Time since last request: 253.060844 seconds.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e825ba9db2f8a5860c8c7e23e62da57a') in 0.004467 seconds 
+  Import took 0.007077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.228697 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd0527b86d9e982ce4b08128407761') in 0.010728 seconds 
-  Import took 0.027415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.217312 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30834dcdd679d0c3a61fb1ebc7fedc29') in 0.003582 seconds 
-  Import took 0.009135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.199147 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58a67cec2c1052cdaec1abad111876a') in 0.003643 seconds 
-  Import took 0.011682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.752264 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24d41b251862eae4bf82db10824ffc') in 0.025738 seconds 
-  Import took 0.063165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.752494 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0ccfe796bae5c09729fb13ea7ba954') in 0.003742 seconds 
-  Import took 0.009855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.298251 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e10615e2c63488a06358e884c8fdc9') in 0.008363 seconds 
-  Import took 0.022012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.966246 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc5fbbfacff487fb797fe81dc7e4a12') in 0.005066 seconds 
-  Import took 0.010525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.013236 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5685266a7fb69b931d63ecb7f6475d6') in 0.006360 seconds 
-  Import took 0.015680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.362468 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a703faa8acca31ff53b5bac4d093d5bc') in 0.004488 seconds 
-  Import took 0.009753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.115874 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329b60c72cf0763c5b9cd402e03aa88b') in 0.005744 seconds 
-  Import took 0.010734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.682328 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d5203a9746f66cf6019d6cfb43311b') in 0.004192 seconds 
-  Import took 0.009160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.097207 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba05090a9a38690198f3bb67ef75db4') in 0.007685 seconds 
-  Import took 0.020740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.133593 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf8e8f5df156a93987dbdb97e63fa57') in 0.005929 seconds 
-  Import took 0.010388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.577719 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b183399a797ee6cd0a0bdd96b312b5') in 0.006072 seconds 
-  Import took 0.010760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.228859 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd65822db5b1080f594c1d53f5ba3e0') in 0.005409 seconds 
-  Import took 0.012435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.283836 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3688e7d9af50209d343d4864efd570') in 0.004648 seconds 
-  Import took 0.008696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.587854 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cf03bb38016b268c36728d89253ebc') in 0.009724 seconds 
-  Import took 0.021183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 999.456323 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35aa259fc10ec9433dea484c999b37d') in 0.005348 seconds 
-  Import took 0.018232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.784493 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4a6202dbba355a0c52cebc60130803') in 0.004783 seconds 
-  Import took 0.010345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1062.987297 seconds.
+  Time since last request: 5.777188 seconds.
   path: Assets/Scenes/GameLevels/MainMenu.unity
   artifactKey: Guid(4a8697a5acb12d4479365b3b2d7fb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/MainMenu.unity using Guid(4a8697a5acb12d4479365b3b2d7fb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ad6e0e549c158bb73406ecba7fac3') in 0.011772 seconds 
-  Import took 0.029535 seconds .
+Start importing Assets/Scenes/GameLevels/MainMenu.unity using Guid(4a8697a5acb12d4479365b3b2d7fb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ad6e0e549c158bb73406ecba7fac3') in 0.009497 seconds 
+  Import took 0.011897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5965.157197 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f450fb2c39c912b687c6c04cb1b8d18') in 0.009123 seconds 
-  Import took 0.020748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.427229 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898143e070e8fc21db93d6b118724811') in 0.003814 seconds 
-  Import took 0.010863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.706695 seconds.
-  path: Assets/Scenes/GameLevels/Belgium.unity
-  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc7abdf55fdc2926218b57021c4f3b2') in 0.009100 seconds 
-  Import took 0.028027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.199173 seconds.
+  Time since last request: 98.588612 seconds.
   path: Assets/Scenes/GameLevels/Denmark.unity
   artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7aaabe5735abf33ddc48a22eb71c33') in 0.007651 seconds 
-  Import took 0.024800 seconds .
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31db9092f1f18dc3de7dea230d89b0a') in 0.004119 seconds 
+  Import took 0.006868 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 31.734638 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaba85d7fafa0f9c02cb6a645758372') in 0.004144 seconds 
-  Import took 0.010258 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 2.482900 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.042400 ms MarkObjects: 2.287400 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1974.514865 seconds.
-  path: Assets/Ingredients/Denmark/Materials
-  artifactKey: Guid(cd18a30aebace40579639a13b663555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Denmark/Materials using Guid(cd18a30aebace40579639a13b663555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaf801bc216f9e5af4c469cd5b2bca5') in 0.011519 seconds 
-  Import took 0.028289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024543 seconds.
-  path: Assets/Ingredients/Denmark/Materials/BreadPackage.mat
-  artifactKey: Guid(a24b05e52e4b542d4ba766799c67d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Denmark/Materials/BreadPackage.mat using Guid(a24b05e52e4b542d4ba766799c67d68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6faab3f133ddc441eecbfa3b5110954') in 1.363238 seconds 
-  Import took 1.369346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Ingredients/Denmark/Materials/CayanPaper.mat
-  artifactKey: Guid(f6cdfb2124b564af3b9711c36daf3bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Denmark/Materials/CayanPaper.mat using Guid(f6cdfb2124b564af3b9711c36daf3bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ef89c31ec32cbc113cbad27708ba9c') in 0.027497 seconds 
-  Import took 0.034816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 992.483064 seconds.
+  Time since last request: 200.254938 seconds.
   path: Assets/Scenes/GameLevels/Denmark.unity
   artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a863194fa10011d81a50d746cf9da5db') in 0.022376 seconds 
-  Import took 0.035402 seconds .
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d23700d8b2ee8ce04e27e0e156b1a27') in 0.013824 seconds 
+  Import took 0.016210 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1747.355873 seconds.
-  path: Assets/Ingredients/CookerCutlery
-  artifactKey: Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery using Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22611c86a3906fce87d5a68bd58a845a') in 0.022779 seconds 
-  Import took 0.037394 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (656ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 2.204000 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.024600 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.440491 seconds.
-  path: Assets/Ingredients/CookerCutlery/ButterPlate.fbx
-  artifactKey: Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/ButterPlate.fbx using Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0939b64b10f7b2bd246e6c3af27778') in 1.177165 seconds 
-  Import took 1.214525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000731 seconds.
-  path: Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx
-  artifactKey: Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx using Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bab6546e2844b01c3579a3f72062f8d') in 0.117415 seconds 
-  Import took 0.122015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Ingredients/CookerCutlery/Cookwe.fbx
-  artifactKey: Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/Cookwe.fbx using Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafd601f830e5a9d64a1b1aadfcb116f') in 0.069521 seconds 
-  Import took 0.072594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 167.242684 seconds.
+  Time since last request: 984.257068 seconds.
   path: Assets/Scenes/GameLevels/Denmark.unity
   artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19480af0396c10ff2c3775b5ab38156') in 0.010840 seconds 
-  Import took 0.042416 seconds .
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01566dda56dc4f60801ad2922d6144f1') in 0.017981 seconds 
+  Import took 0.020716 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 2.343200 ms (FindLiveObjects: 0.139200 ms CreateObjectMapping: 0.038600 ms MarkObjects: 2.149900 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229.561191 seconds.
+  path: Assets/Ingredients/Denmark
+  artifactKey: Guid(c86806f0c42304b7089bd63316703c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark using Guid(c86806f0c42304b7089bd63316703c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2140bcf9252f9630cbe292ffabd405') in 0.011211 seconds 
+  Import took 0.013609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2589.050998 seconds.
+  Time since last request: 0.047064 seconds.
+  path: Assets/Ingredients/Denmark/BreadPackage.png
+  artifactKey: Guid(882bff536f61a4e1d96341906fe52ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/BreadPackage.png using Guid(882bff536f61a4e1d96341906fe52ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb39c960133b3ffdea51be161a2523') in 0.098392 seconds 
+  Import took 0.101055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ingredients/Denmark/CayanPaper.png
+  artifactKey: Guid(2032a3259622f4628a123d17612544d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/CayanPaper.png using Guid(2032a3259622f4628a123d17612544d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a537c7f741f39f225cdb5a726980c2f') in 0.142872 seconds 
+  Import took 0.145192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Ingredients/Denmark/cUCAMBER.png
+  artifactKey: Guid(e443cd477bf684c35a7c398e43d5de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/cUCAMBER.png using Guid(e443cd477bf684c35a7c398e43d5de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64f09ad7babbc24b9972c3e4bd9a234') in 0.025089 seconds 
+  Import took 0.027342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Ingredients/Denmark/pepper.png
+  artifactKey: Guid(4476b423ee68a4c2a9ac1baafe2e5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/pepper.png using Guid(4476b423ee68a4c2a9ac1baafe2e5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330b70d7e069675d20df982d056c7a80') in 0.036606 seconds 
+  Import took 0.038577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Ingredients/Denmark/MayoSquiz.png
+  artifactKey: Guid(a445f291df79a474285c0e30b2872f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/MayoSquiz.png using Guid(a445f291df79a474285c0e30b2872f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f271e24f17aa6f38b861280055593b') in 0.023090 seconds 
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Ingredients/Denmark/Salt.png
+  artifactKey: Guid(d47983979219f4c09b22268b47c17621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/Salt.png using Guid(d47983979219f4c09b22268b47c17621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb08276321924de0f050b1760687368e') in 0.014370 seconds 
+  Import took 0.016906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Ingredients/Denmark/SpringOnionSlice.png
+  artifactKey: Guid(1c25a7405cc1d41c1a0b02311578a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/SpringOnionSlice.png using Guid(1c25a7405cc1d41c1a0b02311578a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ca99907daf6d77c268f25ecd10c22') in 0.021604 seconds 
+  Import took 0.023808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Ingredients/Denmark/paperSprickle.png
+  artifactKey: Guid(0109b054f6c8b4c28b2334bb792a8ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/paperSprickle.png using Guid(0109b054f6c8b4c28b2334bb792a8ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ed733b39355458c21a1a2f50d08c58') in 0.022475 seconds 
+  Import took 0.024686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Ingredients/Denmark/salmon.png
+  artifactKey: Guid(5c61bd53a25824b2db86fd433aec2636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/salmon.png using Guid(5c61bd53a25824b2db86fd433aec2636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d511d49c3866caf0b0f86e3571d80c') in 0.024356 seconds 
+  Import took 0.026420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Ingredients/Denmark/Mayo.png
+  artifactKey: Guid(c72998800832341daa0a4ad15bb0a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/Mayo.png using Guid(c72998800832341daa0a4ad15bb0a5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebbb52a89e2ed65e3df4745ae129266') in 0.018704 seconds 
+  Import took 0.020688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
   path: Assets/Ingredients/Denmark/lemon.png
   artifactKey: Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Denmark/lemon.png using Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc5ce415e65f72cafb5e4f746bf9a5a') in 0.822808 seconds 
-  Import took 0.857443 seconds .
+Start importing Assets/Ingredients/Denmark/lemon.png using Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4cdcedb396a693d631df17050fc025') in 0.019912 seconds 
+  Import took 0.022126 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.926260 seconds.
-  path: Assets/Ingredients/Denmark/lemon.png
-  artifactKey: Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Denmark/lemon.png using Guid(75d945e1eb47d4cd298c20075aa60135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b821de3ead7c3dbaa719655b16c7b95') in 0.089701 seconds 
-  Import took 0.095013 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Ingredients/Denmark/SaltSpricle.png
+  artifactKey: Guid(43a00eb9a73484221ba6a38227428c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/SaltSpricle.png using Guid(43a00eb9a73484221ba6a38227428c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3f49f8cd707e0e732c193f661bc940') in 0.020863 seconds 
+  Import took 0.022870 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 263.449152 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c209ce2878f4ac35b480cd46e38f6a5f') in 0.012524 seconds 
-  Import took 0.032037 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Ingredients/Denmark/PaperSprinckle.png
+  artifactKey: Guid(6be492b6dabc74ca981f23fb6f7c23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/PaperSprinckle.png using Guid(6be492b6dabc74ca981f23fb6f7c23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23777f48e62aa3f816227c7a5033ecea') in 0.016988 seconds 
+  Import took 0.019047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2877.752477 seconds.
-  path: Assets/Scenes/GameLevels/Belgium.unity
-  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1084ca8aa51fd341ad1716d4ef42e99a') in 0.007810 seconds 
-  Import took 0.021898 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Ingredients/Denmark/SpringOnion.png
+  artifactKey: Guid(43aff4234e95e448b88d3017eba60c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/SpringOnion.png using Guid(43aff4234e95e448b88d3017eba60c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1808c65e95edf7bd51edf711e9d9fb') in 0.018308 seconds 
+  Import took 0.020359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.354031 seconds.
-  path: Assets/Scenes/GameLevels/Denmark.unity
-  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bdcca9391ed0d022344b7a04b3d4e') in 0.002981 seconds 
-  Import took 0.009176 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Ingredients/Denmark/PLAINbread.png
+  artifactKey: Guid(9b351e7f0ce284f0c9ecfb1ee2971830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/PLAINbread.png using Guid(9b351e7f0ce284f0c9ecfb1ee2971830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c76c74e55e0215c6699c6509e84e462') in 0.018843 seconds 
+  Import took 0.020880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.152095 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd1192dca6d23298ba3e550f51274ae') in 0.005937 seconds 
-  Import took 0.014494 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Ingredients/Denmark/MayoAndBread.png
+  artifactKey: Guid(87c79cfbd227a45b5a55fb3864e07992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/MayoAndBread.png using Guid(87c79cfbd227a45b5a55fb3864e07992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1618b7b7b1b48bc3413fa2ee466cc01') in 0.018452 seconds 
+  Import took 0.020493 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.287059 seconds.
-  path: Assets/Ingredients/CookerCutlery/pSphere3.prefab
-  artifactKey: Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/pSphere3.prefab using Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab2974a1404ecbeb6e7fca7fceaee42') in 0.781709 seconds 
-  Import took 0.804119 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Ingredients/Denmark/SalmonPack.png
+  artifactKey: Guid(ca5c20dc4b517432d97222338f215f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/SalmonPack.png using Guid(ca5c20dc4b517432d97222338f215f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30b0ef28a8695850eb431b2ad15cb3') in 0.019018 seconds 
+  Import took 0.021054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.830575 seconds.
-  path: Assets/Ingredients/Spain/Materials
-  artifactKey: Guid(cf4b08d99bed444fd9fc3ec941ff05ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Spain/Materials using Guid(cf4b08d99bed444fd9fc3ec941ff05ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ffba22ba6768a89c294077e9f5641b') in 0.005617 seconds 
-  Import took 0.019168 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Ingredients/Denmark/SliceCucamber.png
+  artifactKey: Guid(02df2eb14f5374b62ade714b07144e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Denmark/SliceCucamber.png using Guid(02df2eb14f5374b62ade714b07144e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafc6ce9af9368ee115a02caaa3a7635') in 0.018486 seconds 
+  Import took 0.020552 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 768.730108 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5ee94a858a2274ccb9313233f0bd60') in 0.008788 seconds 
-  Import took 0.021603 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 6.991698 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eced9205080a74375002266f6fe910fa') in 0.005640 seconds 
-  Import took 0.011134 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2082.
+Total: 2.608300 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.407300 ms  DeleteObjects: 0.016700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 81.542269 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffebf80d7a56e598e8b0d1920639e184') in 0.007781 seconds 
-  Import took 0.020974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.954812 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4684b2d76268de1548998a3743fcce80') in 0.010109 seconds 
-  Import took 0.022555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.383574 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0388196a587c1000fd505df96400e97f') in 0.006815 seconds 
-  Import took 0.018957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1040.624634 seconds.
-  path: Assets/Scenes/GameLevels/Slovakia.unity
-  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eefde14e213114ec9de33b4736484b') in 0.007136 seconds 
-  Import took 0.019473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.497431 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41de1633fad2f385007da7f0eb8f6780') in 0.005441 seconds 
-  Import took 0.011738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 613.763513 seconds.
-  path: Assets/Scenes/GameLevels/Spain.unity
-  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb2a4599e5186719538382939bdd1c2') in 0.009140 seconds 
-  Import took 0.021473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.862526 seconds.
-  path: Assets/Ingredients/CookerCutlery/SpainPAN.fbx
-  artifactKey: Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/SpainPAN.fbx using Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03019f8abf904b13dedcf49b61d5810a') in 0.104836 seconds 
-  Import took 0.148232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1412.827702 seconds.
-  path: Assets/Ingredients/CookerCutlery/spainPan.fbx
-  artifactKey: Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/CookerCutlery/spainPan.fbx using Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e045c4abf203673095b6119ef7928') in 0.162016 seconds 
-  Import took 0.177362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.217744 seconds.
-  path: Assets/Scenes/GameLevels/Shop.unity
-  artifactKey: Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameLevels/Shop.unity using Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac705011328b7459e1ee8300a47441b') in 0.009269 seconds 
-  Import took 0.021592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.709756 seconds.
-  path: Assets/Ingredients/Slovakia/Materials
-  artifactKey: Guid(717d35d6a08724b37a426044e07ad5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/Slovakia/Materials using Guid(717d35d6a08724b37a426044e07ad5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56ba877926005ac83e571b70c4f003') in 0.003375 seconds 
-  Import took 0.008307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.251192 seconds.
-  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png
-  artifactKey: Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png using Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e07c5ca312fadd48922a1e1d4e3d1b') in 0.040696 seconds 
-  Import took 0.068659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002612 seconds.
-  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png
-  artifactKey: Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png using Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d402a7dbae25eed459754540b4abc') in 0.039275 seconds 
-  Import took 0.046367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.021519 seconds.
-  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png
-  artifactKey: Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/blueberry.png using Guid(a35345eeb9aeb448cb77cb58edf29d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ada08e29aa4bd0479b1463ffd7dd6d') in 0.022663 seconds 
-  Import took 0.028166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.331103 seconds.
-  path: Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png
-  artifactKey: Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ingredients/BelgiumPNGa/BelhiumIngridiants/BUTTER.png using Guid(220096b8d592143a0922a134c04207d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbaaf04ef6305103105f476a6004f6') in 0.057589 seconds 
-  Import took 0.062919 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
