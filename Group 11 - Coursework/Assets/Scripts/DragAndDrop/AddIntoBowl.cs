@@ -8,6 +8,8 @@ public class AddIntoBowl : MonoBehaviour
     bool canBeAdded;
     GameObject objectColl;
     public bool addedInBowl = false; //for the SpriteChange script, not useful in this script 
+    [SerializeField] CounterOrderIngredients CounterScript;
+
 
     void Update()
     {
@@ -15,6 +17,7 @@ public class AddIntoBowl : MonoBehaviour
         {
             print("Added");
             addedInBowl = true;
+            CounterScript.counter++;
 
             //Destroy(gameObject); - the old method
             if(gameObject.tag == "Egg")
