@@ -2754,7 +2754,7 @@ GameObject:
   - component: {fileID: 972217929}
   - component: {fileID: 972217928}
   - component: {fileID: 972217933}
-  - component: {fileID: 972217934}
+  - component: {fileID: 972217935}
   m_Layer: 0
   m_Name: Counter
   m_TagString: Untagged
@@ -2865,7 +2865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SaucePan: {fileID: 74362011}
   Pan: {fileID: 5127337093458871716}
---- !u!114 &972217934
+--- !u!114 &972217935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2874,7 +2874,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 972217927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa03ed3f8b988f4da74f9ad4392af15, type: 3}
+  m_Script: {fileID: 11500000, guid: 86589a4c2bf789749a5b20bfd0fa197d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Lists:
@@ -2883,6 +2883,8 @@ MonoBehaviour:
   recipes:
   - {fileID: 1437368770}
   - {fileID: 821935479}
+  stepWhenFirstListChanges: 4
+  stepWhenSecondListChanges: 9
 --- !u!1 &1005318562
 GameObject:
   m_ObjectHideFlags: 0

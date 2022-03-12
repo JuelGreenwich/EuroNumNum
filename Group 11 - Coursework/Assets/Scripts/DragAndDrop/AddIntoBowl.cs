@@ -32,13 +32,12 @@ public class AddIntoBowl : MonoBehaviour
         }
         else
         {
-            addedInBowl = false; //resets it for other eggs
+            //addedInBowl = false; //resets it for other eggs - RESET DOESN'T WORK
         }
     }
 
     private void OnTriggerEnter(Collider collider)
     {
-        //print("collision");
         objectColl = collider.gameObject;
         if (objectColl.tag == "Bowl")
         {

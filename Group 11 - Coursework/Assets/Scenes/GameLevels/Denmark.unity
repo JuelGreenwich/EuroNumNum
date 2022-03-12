@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 14381030}
   - component: {fileID: 14381029}
   - component: {fileID: 14381034}
+  - component: {fileID: 14381035}
   m_Layer: 0
   m_Name: Counter
   m_TagString: Untagged
@@ -333,6 +334,24 @@ MonoBehaviour:
   - {fileID: 211294838}
   - {fileID: 1142699867}
   - {fileID: 1640892520}
+--- !u!114 &14381035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14381028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86589a4c2bf789749a5b20bfd0fa197d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lists:
+  - {fileID: 2093149782}
+  recipes:
+  - {fileID: 1526454925}
+  stepWhenFirstListChanges: 5
+  stepWhenSecondListChanges: 999
 --- !u!1 &16182140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,52 +3392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d716351e18c6343b700db146bbcf77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1069044983
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1069044985}
-  - component: {fileID: 1069044984}
-  m_Layer: 0
-  m_Name: ListChangeObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1069044984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069044983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23356df8b441b2143b0d4246ced64585, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SecondList: {fileID: 2093149782}
-  CounterScript: {fileID: 14381029}
-  recipe: {fileID: 1526454925}
---- !u!4 &1069044985
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069044983}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.89144146, y: 0.9348358, z: 0.49500802}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1069761025
 GameObject:
   m_ObjectHideFlags: 0
@@ -4053,7 +4026,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1330008980
 GameObject:
