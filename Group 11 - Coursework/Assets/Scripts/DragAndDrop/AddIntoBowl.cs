@@ -47,7 +47,7 @@ public class AddIntoBowl : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit(Collider other)
     {
         canBeAdded = false;
     }

@@ -12,7 +12,6 @@ public class DenmarkOrder : MonoBehaviour
     void Start()
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();     
-
     }
 
     // Update is called once per frame
@@ -30,10 +29,29 @@ public class DenmarkOrder : MonoBehaviour
         {
             ActivateDragAndDrop("Salmon");
         }
+        if (CounterScript.counter == 4) //CUCUMBER
+        {
+            ActivateDragAndDrop("Knife");
+            ActivateDragAndDrop("CucumberFull");
+            ActivateDragAndDrop("Cucumber");
+        }
+        if (CounterScript.counter == 5) //ONION
+        {
+            ActivateDragAndDrop("OnionFull");
+            ActivateDragAndDrop("Onion");
+        }
+        if (CounterScript.counter == 6) 
+        {
+            ActivateDragAndDrop("Pepper");
+        }
+        if (CounterScript.counter == 7)
+        {
+            ActivateDragAndDrop("Lemon");
+        }
 
     }
 
-    void ActivateDragAndDrop( string s)
+    void ActivateDragAndDrop(string s)
     {
         if(gameObject.name == s)
         DnDScript.enabled = true;
