@@ -13,7 +13,7 @@ public class AddIntoBowl : MonoBehaviour
 
     void Update()
     {
-        if(canBeAdded && DaDScript.isPicked == false)
+        if(canBeAdded && DaDScript.isPicked == false) //when the click is released
         {
             print("Added");
             addedInBowl = true;

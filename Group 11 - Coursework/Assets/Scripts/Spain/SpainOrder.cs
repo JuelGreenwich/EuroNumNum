@@ -61,7 +61,7 @@ public class SpainOrder : MonoBehaviour
         }
         if (CounterScript.counter == 10) 
         {
-            ActivateDragAndDrop("SaucePot");
+            ActivateDragAndDrop("SaucePan");
         }
         if (CounterScript.counter == 11)
         {

@@ -70,7 +70,7 @@ public class KnifeSpain : MonoBehaviour
             }
         }
 
-        if (other.gameObject.name == "PasleyoCut")
+        if (other.gameObject.name == "Pasley")
         {
             if (DnDScript.isPicked == true && OnBoardScript.pasleyOnBoard == true)
             {

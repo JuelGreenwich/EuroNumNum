@@ -15,6 +15,7 @@ public class SpainItemOnBoard : MonoBehaviour
     {
         if (other.gameObject.name == "Onion")
         {
+            print("on board");
             onionOnBoard = true;
         }
         if (other.gameObject.name == "Pepper")
@@ -41,14 +42,11 @@ public class SpainItemOnBoard : MonoBehaviour
         {
             pasleyOnBoard = true;
         }
-        
-
     }
 
     private void OnTriggerExit(Collider other)
     {
         //print("exit board");
         //onionOnBoard = false;
-        //cucumberOnBoard = false;
     }
 }
