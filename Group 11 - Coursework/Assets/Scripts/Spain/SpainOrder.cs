@@ -1,0 +1,94 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SpainOrder : MonoBehaviour
+{
+    DragAndDropNEW DnDScript;
+    int counter = 1;
+    [SerializeField] CounterOrderIngredients CounterScript;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        DnDScript = gameObject.GetComponent<DragAndDropNEW>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (CounterScript.counter == 1)
+        {
+            ActivateDragAndDrop("Chicken");
+        }
+        if (CounterScript.counter == 2)
+        {
+            ActivateDragAndDrop("Saffron");
+        }
+        if (CounterScript.counter == 3)
+        {
+            ActivateDragAndDrop("Oil");
+        }
+        if (CounterScript.counter == 4) //Onion
+        {
+            ActivateDragAndDrop("Knife");
+            ActivateDragAndDrop("Onion");
+            ActivateDragAndDrop("OnionCut");
+        }
+        if (CounterScript.counter == 5) //Pepper
+        {
+            ActivateDragAndDrop("Pepper");
+            ActivateDragAndDrop("PepperCut");
+        }
+        if (CounterScript.counter == 6) //Garlic
+        {
+            ActivateDragAndDrop("Garlic");
+            ActivateDragAndDrop("GarlicCut");
+        }
+        if (CounterScript.counter == 7) //Sausage
+        {
+            ActivateDragAndDrop("Sausage");
+            ActivateDragAndDrop("SausageCut");
+        }
+        if (CounterScript.counter == 8) 
+        {
+            ActivateDragAndDrop("BombaRice");
+        }
+        if (CounterScript.counter == 9) //Tomato
+        {
+            ActivateDragAndDrop("Tomato");
+            ActivateDragAndDrop("TomatoCut");
+        }
+        if (CounterScript.counter == 10) 
+        {
+            ActivateDragAndDrop("SaucePot");
+        }
+        if (CounterScript.counter == 11)
+        {
+            ActivateDragAndDrop("Mussles");
+        }
+        if (CounterScript.counter == 12)
+        {
+            ActivateDragAndDrop("Shrimp");
+        }
+        if (CounterScript.counter == 13)
+        {
+            ActivateDragAndDrop("Peas");
+        }
+        if (CounterScript.counter == 14)
+        {
+            ActivateDragAndDrop("Salt");
+        }
+        if (CounterScript.counter == 15) //Pasley
+        {
+            ActivateDragAndDrop("Pasley");
+            ActivateDragAndDrop("PasleyCut");
+        }
+    }
+
+    void ActivateDragAndDrop(string s)
+    {
+        if (gameObject.name == s)
+            DnDScript.enabled = true;
+    }
+}

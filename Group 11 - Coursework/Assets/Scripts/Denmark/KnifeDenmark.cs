@@ -7,7 +7,7 @@ public class KnifeDenmark : MonoBehaviour
     [SerializeField] GameObject newCucumber;
     [SerializeField] GameObject newOnion;
     DragAndDropNEW DnDScript;
-    [SerializeField] ItemOnBoard OnBoardScript;
+    [SerializeField] DenmarkItemOnBoard OnBoardScript;
 
     void Start()
     {

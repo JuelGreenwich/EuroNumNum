@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DragAndDrop\DenmarkOrder.cs" />
+    <Compile Include="Assets\Scripts\Denmark\DenmarkOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\KnifeDenmark.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\ColliderCheck.cs" />
@@ -63,14 +63,18 @@
     <Compile Include="Assets\Scripts\EggStop.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\DragAndDropNEW.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkSpriteChange.cs" />
+    <Compile Include="Assets\Scripts\Lists\ListDenmark.cs" />
     <Compile Include="Assets\Scripts\NavMeshPlayerController.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
-    <Compile Include="Assets\Scripts\Denmark\ItemOnBoard.cs" />
+    <Compile Include="Assets\Scripts\Denmark\DenmarkItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\Pickable.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\CounterOrderIngredients.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
-    <Compile Include="Assets\Scripts\Lists\ListDenmark.cs" />
+    <Compile Include="Assets\Scripts\Denmark\DenmarkPlates.cs" />
+    <Compile Include="Assets\Scripts\Spain\SpainOrder.cs" />
+    <Compile Include="Assets\Scripts\Spain\KnifeSpain.cs" />
+    <Compile Include="Assets\Scripts\Spain\SpainItemOnBoard.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
