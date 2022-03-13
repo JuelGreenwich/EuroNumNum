@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\Lists\ListSpain.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\KnifeDenmark.cs" />
+    <Compile Include="Assets\Scripts\Slovakia\MeatAppear.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\ColliderCheck.cs" />
     <Compile Include="Assets\Scripts\EggSpriteChange.cs" />
@@ -70,7 +71,9 @@
     <Compile Include="Assets\Scripts\Lists\ListSlovakia.cs" />
     <Compile Include="Assets\Scripts\Lists\ListDenmark.cs" />
     <Compile Include="Assets\Scripts\NavMeshPlayerController.cs" />
+    <Compile Include="Assets\Scripts\Slovakia\SlovakiaItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\EggCounter.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainChangePot.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
@@ -78,13 +81,12 @@
     <Compile Include="Assets\Scripts\DragAndDrop\Pickable.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainOrder.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\CounterOrderIngredients.cs" />
+    <Compile Include="Assets\Scripts\Slovakia\KnifeSlovakia.cs" />
     <Compile Include="Assets\Scripts\Spain\KnifeSpain.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaOrder.cs" />
-    <Compile Include="Assets\Scripts\Slovakia\KnifeSlovakia.cs" />
-    <Compile Include="Assets\Scripts\Slovakia\SlovakiaItemOnBoard.cs" />
-    <Compile Include="Assets\Scripts\EggCounter.cs" />
-    <Compile Include="Assets\Scripts\Slovakia\MeatAppear.cs" />
+    <Compile Include="Assets\Scripts\Belgium\BelgiumOrder.cs" />
+    <Compile Include="Assets\Scripts\Belgium\BelgiumChangeBowl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

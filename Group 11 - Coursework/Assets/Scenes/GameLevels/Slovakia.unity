@@ -811,7 +811,7 @@ GameObject:
   - component: {fileID: 178737609}
   - component: {fileID: 178737608}
   m_Layer: 0
-  m_Name: FullEggsCover
+  m_Name: EggsRackCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
