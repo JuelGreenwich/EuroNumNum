@@ -7,6 +7,8 @@ public class SlovakiaOrder : MonoBehaviour
     DragAndDropNEW DnDScript;
     int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
+    [SerializeField] GameObject Mix;
+    [SerializeField] BoxCollider BowlCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +30,6 @@ public class SlovakiaOrder : MonoBehaviour
         if (CounterScript.counter == 3) //Meat + CHANGE POT 
         {
             ActivateDragAndDrop("Meat"); 
-            ActivateDragAndDrop("SaucePan"); 
         }
         if (CounterScript.counter == 4) //Onion
         {
@@ -41,46 +42,56 @@ public class SlovakiaOrder : MonoBehaviour
             ActivateDragAndDrop("Garlic");
             ActivateDragAndDrop("GarlicCut");
         }
-        if (CounterScript.counter == 6) //Egg1
+        if (CounterScript.counter == 6) //Eggs
         {
             ActivateDragAndDrop("Egg1");
-        }
-        if (CounterScript.counter == 7) //Egg2
-        {
             ActivateDragAndDrop("Egg2");
         }
-        if (CounterScript.counter == 8) //SaucePan
+        if (CounterScript.counter == 7) //SaucePan
         {
             ActivateDragAndDrop("SaucePan");
         }
-        if (CounterScript.counter == 9) //Salt
+        if (CounterScript.counter == 8) //Salt
         {
             ActivateDragAndDrop("Salt");
         }
-        if (CounterScript.counter == 10) //Pepper 
+        if (CounterScript.counter == 9) //Pepper 
         {
             ActivateDragAndDrop("Pepper");
         }
-        if (CounterScript.counter == 11) //Oil + CHANGE POT
+        if (CounterScript.counter == 10) //Oil + CHANGE POT
         {
             ActivateDragAndDrop("Oil");
-            ActivateDragAndDrop("Bowl");
+            //ActivateDragAndDrop("Bowl");
+
+            if(Mix != null)
+            {
+                Mix.SetActive(true); //Make the Mix visible
+            }
         }
-        if (CounterScript.counter == 12) //Onion2
+        if (CounterScript.counter == 11) //Onion2
         {
             ActivateDragAndDrop("Onion2");
             ActivateDragAndDrop("OnionCut2");
         }
-        if (CounterScript.counter == 13) //Sauce
+        if (CounterScript.counter == 12) //Sauce
         {
             ActivateDragAndDrop("Sauce");
         }
-        if (CounterScript.counter == 14) //MixBowl to Board
+        if (CounterScript.counter == 13) //MixBowl to Board
         {
-            ActivateDragAndDrop("MixBowl");
+            ActivateDragAndDrop("Mix");
+            ActivateDragAndDrop("Meatballs");
             //activate some hand
+
+            //deactivate the collider of the bowl
+            if (BowlCollider != null)
+            {
+                BowlCollider.enabled = false;
+            }
+
         }
-        if (CounterScript.counter == 15) //Pasley
+        if (CounterScript.counter == 14) //Pasley
         {
             ActivateDragAndDrop("Water2");
         }

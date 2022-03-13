@@ -23,7 +23,7 @@ public class SlovakiaChangePot : MonoBehaviour
             SaucePan.tag = "Untagged";
             Bowl.tag = "Bowl";
         }
-        if (CounterScript.counter == 11)
+        if (CounterScript.counter == 10)
         {
             Bowl.tag = "Untagged";
             Pot.tag = "Bowl";

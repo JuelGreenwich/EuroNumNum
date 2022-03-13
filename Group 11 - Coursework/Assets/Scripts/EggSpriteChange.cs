@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class EggSpriteChange : MonoBehaviour
 {
-    [SerializeField] Sprite[] EggMissingSprite; //array of sprites: Egg rack with missing eggs
+    [SerializeField] Sprite EggMissingSprite;
     [SerializeField] Sprite YolkSprite;
     SpriteRenderer spriteRenderer;
-    [SerializeField] DragAndDropNEW[] DnD; //Array for all eggs that checks if they are picked
+    [SerializeField] DragAndDropNEW DnD; //you drag the object
     [SerializeField] AddIntoBowl AddBowl;
     Rigidbody rigidBody;
     Collider coll;
+
+    [SerializeField] CounterOrderIngredients CounterScript;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidBody = GetComponent<Rigidbody>();
         coll = GetComponent<Collider>();
-        //AddBowl = GetComponent<AddIntoBowl>();
     }
 
     void Update()
     {
-        if(gameObject.tag == "Egg")
+        if (gameObject.tag == "Egg")
         {
             if (AddBowl.addedInBowl == true)
             {
@@ -30,26 +31,25 @@ public class EggSpriteChange : MonoBehaviour
                 coll.isTrigger = true; //so that you can use OnTriggerEnter AND so that it doesn't get stoped by the bowl collider
                 rigidBody.isKinematic = false; //false so that you can apply force 
                 rigidBody.AddForce(transform.up * -0.5f); //moves down
+                                                          //ChangeSprite();
+
+                CounterScript.counter = 7;
             }
         }
-        if(gameObject.tag == "EggRack") //if you pick an egg in your hand, the rack changes sprites  
+        if (gameObject.tag == "EggRack")
         {
-            if (DnD[0].isPicked == true) //The first egg
-            {
-                ChangeSprite(0); //changes to the sprite where an egg is missing
-            }
-            if (DnD[1].isPicked == true) //The second egg
-            {
-                ChangeSprite(1); //changes to the sprite where two eggs are missing
-            }
+            //if (DnD.isPicked == true)
+            //{
+            //    spriteRenderer.sprite = EggMissingSprite;
+            //    spriteRenderer.sortingOrder = 1;
+            //    //ChangeSprite();
+            //}
         }
 
     }
 
-    public void ChangeSprite(int n)
+    public void ChangeSprite()
     {
-        spriteRenderer.sprite = EggMissingSprite[n]; //
-        spriteRenderer.sortingOrder = n+1;
         //spriteRenderer.sprite = newSprite;
         //spriteRenderer.sortingOrder = 1;
     }
