@@ -26,10 +26,6 @@ public class AddIntoBowl : MonoBehaviour
             {
                 Invoke("ItemDisappear", 2f);
             }
-            //else if (gameObject.tag == "Spoon")
-            //{
-            //    //don't make the spoon disappear 
-            //}
             else
             {
                 CounterScript.counter++;

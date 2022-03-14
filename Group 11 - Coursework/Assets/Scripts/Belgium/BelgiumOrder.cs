@@ -7,6 +7,7 @@ public class BelgiumOrder : MonoBehaviour
     DragAndDropNEW DnDScript;
     int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
+    XCross XCrossScript;
 
     [SerializeField] GameObject WMakerEmpty;
     [SerializeField] GameObject WMakerFull;
@@ -17,6 +18,7 @@ public class BelgiumOrder : MonoBehaviour
     void Start()
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
+        XCrossScript = gameObject.GetComponent<XCross>();
     }
 
     // Update is called once per frame
@@ -25,31 +27,42 @@ public class BelgiumOrder : MonoBehaviour
         if (CounterScript.counter == 1) //Flour BOWL2
         {
             ActivateDragAndDrop("Flour");
+
         }
         if (CounterScript.counter == 2) //BPowder
         {
-            ActivateDragAndDrop("BPowder"); 
+            ActivateDragAndDrop("BPowder");
+
+            CrossFirstStep(2); //cross first step
         }
         if (CounterScript.counter == 3) //Sugar
         {
             ActivateDragAndDrop("Sugar");
+
+            CrossSecondStep(3); //cross second step
         }
         if (CounterScript.counter == 4) //Salt
         {
             ActivateDragAndDrop("Salt");
         }
-        if (CounterScript.counter == 5) //Milk + CHANGE TO BOWL 1
+        if (CounterScript.counter == 5) //Milk + CHANGE TO BOWL 1 + List2
         {
             ActivateDragAndDrop("Milk");
+
+            ChangeFirstList(5); //change list
         }
         if (CounterScript.counter == 6) //Eggs
         {
             ActivateDragAndDrop("Egg1");
             ActivateDragAndDrop("Egg2");
+
+            CrossFirstStep(6);
         }
         if (CounterScript.counter == 7) //Butter
         {
             ActivateDragAndDrop("Butter");
+
+            CrossSecondStep(7);
         }
         if (CounterScript.counter == 8) //Vanilla
         {
@@ -58,14 +71,20 @@ public class BelgiumOrder : MonoBehaviour
         if (CounterScript.counter == 9) //BOWL1 + CHANGE TO BOWL 2 + List3
         {
             ActivateDragAndDrop("Bowl1");
+
+            ChangeSecondList(9); //change list again
         }
         if (CounterScript.counter == 10) //Spoon
         {
             ActivateDragAndDrop("Spoon");
+
+            CrossFirstStep(10);
         }
         if (CounterScript.counter == 11) //Bowl2 + CHANGE TO W MAKER
         {
             ActivateDragAndDrop("Bowl2");
+
+            CrossSecondStep(11);
         }
         if (CounterScript.counter == 12) //CHANGE W MAKER SPRITES
         {
@@ -73,6 +92,8 @@ public class BelgiumOrder : MonoBehaviour
             ChangeSpriteActivate(WMakerFull); //make the full one appear
 
             CounterScript.counter = 13;
+
+            CrossThirdStep(12);
         }
         if (CounterScript.counter == 13)
         {
@@ -81,6 +102,7 @@ public class BelgiumOrder : MonoBehaviour
 
             //Invoke("ChangeSpriteDeactivate(WMakerFull)", 3f); - INVOKE doesn't work for functions with parameters  
         }
+
     }
 
     void ActivateDragAndDrop(string s)
@@ -109,5 +131,45 @@ public class BelgiumOrder : MonoBehaviour
     {
         ChangeSpriteDeactivate(WMakerFull);
         ChangeSpriteActivate(WMakerClosed);
+    }
+
+    void CrossFirstStep(int nr)
+    {
+        if(XCrossScript != null)
+        {
+            XCrossScript.stepX1isCrossed = nr;
+        }
+    }
+
+    void CrossSecondStep(int nr)
+    {
+        if (XCrossScript != null)
+        {
+            XCrossScript.stepX2isCrossed = nr;
+        }
+    }
+
+    void CrossThirdStep(int nr)
+    {
+        if (XCrossScript != null)
+        {
+            XCrossScript.stepX3isCrossed = nr;
+        }
+    }
+
+    void ChangeFirstList(int nr)
+    {
+        if (XCrossScript != null)
+        {
+            XCrossScript.changeList1 = nr;
+        }
+    }
+
+    void ChangeSecondList(int nr)
+    {
+        if (XCrossScript != null)
+        {
+            XCrossScript.changeList2 = nr;
+        }
     }
 }

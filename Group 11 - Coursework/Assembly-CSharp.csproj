@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\NavMeshPlayerController.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\Belgium\BelgiumChangeBowl.cs" />
     <Compile Include="Assets\Scripts\EggCounter.cs" />
+    <Compile Include="Assets\Scripts\Belgium\BelgiumOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainChangePot.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
@@ -85,8 +87,7 @@
     <Compile Include="Assets\Scripts\Spain\KnifeSpain.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaOrder.cs" />
-    <Compile Include="Assets\Scripts\Belgium\BelgiumOrder.cs" />
-    <Compile Include="Assets\Scripts\Belgium\BelgiumChangeBowl.cs" />
+    <Compile Include="Assets\Scripts\Lists\XCross.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
