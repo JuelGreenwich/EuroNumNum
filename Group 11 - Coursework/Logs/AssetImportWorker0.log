@@ -1,0 +1,976 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64251
+Successfully changed project path to: /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+/Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-17 13:49:15.687 Unity[13249:324120] (null) preferred device: Apple M1 (high power)
+2022-03-17 13:49:15.687 Unity[13249:324120] Metal devices available: 1
+2022-03-17 13:49:15.687 Unity[13249:324120] 0: Apple M1 (high power)
+2022-03-17 13:49:15.687 Unity[13249:324120] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56249
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001577 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1204ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2054ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1703ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (870ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.007155 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.012535 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Group 11 - Coursework.sln because it has changed
+[C# Project] First difference on line 6
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Group 11 - Coursework.sln:
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A0052EA8-76FF-B91E-3FA8-C03B79B7BB0E}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{BB9980BC-53F3-E76D-EE09-F7718FFCF916}"
+[C# Project]   009: EndProject
+[C# Project]   010: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{AFF0A040-90A5-2091-0D13-09DAC4EF65D4}"
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Group 11 - Coursework.sln:
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{EA71DCDD-157E-1911-23EC-5F1AB5064374}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A0052EA8-76FF-B91E-3FA8-C03B79B7BB0E}"
+[C# Project]   009: EndProject
+[C# Project]   010: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{BB9980BC-53F3-E76D-EE09-F7718FFCF916}"
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPlayableAsset.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\SignalAsset.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\RuntimeElement.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPlayableAsset.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\SignalAsset.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Runtime\Evaluation\RuntimeElement.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 27
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_TILEMAP;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextProcessingStack.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextUtilities.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteGlyph.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteGlyph.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.TestRunner.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.TestRunner.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\PlasticSCM\Views\PendingChanges\Dialogs\EmptyCheckinMessageDialog.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\PendingChanges\Dialogs\EmptyCheckinMessageDialog.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 27
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.UI.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEditor.UI.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Services.Core.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\Networking\IHttpClient.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\Visuals\ExceptionVisual.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\Visuals\ServiceActivationPopupVisual.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Services.Core.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.services.core\Editor\Core\Networking\IHttpClient.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ServiceActivationPopup\Visuals\ExceptionVisual.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ServiceActivationPopup\Visuals\ServiceActivationPopupVisual.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\Menus\MenuItemActionBase.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\TrackAction.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\Range.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Editor\Actions\Menus\MenuItemActionBase.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Editor\Actions\TrackAction.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\Range.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VisualStudio.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\VisualStudioIntegration.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\UnityInstallation.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\KnownAssemblies.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\UsageUtility.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VisualStudio.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\VisualStudioIntegration.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\UnityInstallation.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\KnownAssemblies.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\UsageUtility.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_PackageUtilities.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_EditorPanel.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\DropdownOptionListDrawer.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\GlyphMetricsPropertyDrawer.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_EditorPanelUI.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_PackageUtilities.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorPanel.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\DropdownOptionListDrawer.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\GlyphMetricsPropertyDrawer.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorPanelUI.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.CollabProxy.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\Collaborate\Models\IModel.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\Collaborate\Views\IStartView.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\Collaborate\Utilities\MenuUtilities.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.4\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.CollabProxy.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Models\IModel.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Views\IStartView.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Utilities\MenuUtilities.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 27
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Rider.Editor.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEST_FRAMEWORK;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Rider.Editor.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.InternalAPIEditorBridgeDev.001.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.InternalAPIEditorBridgeDev.001.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\InternalBridge\UnityConnectSession.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\InternalBridge\LocalizationDatabaseBridge.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\InternalBridge\AssemblyInfo.cs" />
+[C# Project]   053:      <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\InternalBridge\InternalBridge.asmdef" />
+[C# Project]   054:  <Reference Include="UnityEngine">
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.InternalAPIEditorBridgeDev.001.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.connect.share\Editor\InternalBridge\UnityConnectSession.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.connect.share\Editor\InternalBridge\LocalizationDatabaseBridge.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.connect.share\Editor\InternalBridge\AssemblyInfo.cs" />
+[C# Project]   053:      <None Include="Packages\com.unity.connect.share\Editor\InternalBridge\InternalBridge.asmdef" />
+[C# Project]   054:  <Reference Include="UnityEngine">
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VSCode.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\VSCodeDiscovery.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\StringUtils.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\GUIDGenerator.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\ProjectGeneration.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.VSCode.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.ide.vscode\Editor\VSCodeDiscovery.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\StringUtils.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\GUIDGenerator.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\ProjectGeneration.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Settings.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Settings.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.2\Editor\UserSettingsRepository.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.2\Editor\ISettingsRepository.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.2\Editor\Settings.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.2\Editor\UserSettingsProvider.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.settings-manager@1.0.2\Editor\PackageSettingsRepository.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Settings.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.settings-manager\Editor\UserSettingsRepository.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.settings-manager\Editor\ISettingsRepository.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.settings-manager\Editor\Settings.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.settings-manager\Editor\UserSettingsProvider.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.settings-manager\Editor\PackageSettingsRepository.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.EditorCoroutines.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.EditorCoroutines.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutine.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWindowCoroutineExtension.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorWaitForSeconds.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\EditorCoroutineUtility.cs" />
+[C# Project]   054:      <None Include="Library\PackageCache\com.unity.editorcoroutines@1.0.0\Editor\Unity.EditorCoroutines.Editor.asmdef" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.EditorCoroutines.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.editorcoroutines\Editor\EditorCoroutine.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.editorcoroutines\Editor\EditorWindowCoroutineExtension.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.editorcoroutines\Editor\EditorWaitForSeconds.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.editorcoroutines\Editor\EditorCoroutineUtility.cs" />
+[C# Project]   054:      <None Include="Packages\com.unity.editorcoroutines\Editor\Unity.EditorCoroutines.Editor.asmdef" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Play.Publisher.Editor.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Play.Publisher.Editor.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\AppState.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherSettingsManager.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\PublisherUtils.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\AssemblyInfo.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.connect.share@4.2.3\Editor\Redux\Middleware.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Play.Publisher.Editor.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.connect.share\Editor\Redux\AppState.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.connect.share\Editor\PublisherSettingsManager.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.connect.share\Editor\PublisherUtils.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.connect.share\Editor\AssemblyInfo.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.connect.share\Editor\Redux\Middleware.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.Player.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.Player.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.TestRunner.Player.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Player.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Player.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPlayableAsset.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\SignalAsset.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\RuntimeElement.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.Timeline.Player.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPlayableAsset.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\SignalAsset.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Runtime\Evaluation\RuntimeElement.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.Player.csproj because it has changed
+[C# Project] First difference on line 27
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.Player.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_TILEMAP;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/UnityEngine.UI.Player.csproj:
+[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
+[C# Project]   029:     <WarningLevel>4</WarningLevel>
+[C# Project]   030:     <NoWarn>0169</NoWarn>
+[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+[C# Project] Writing /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Player.csproj because it has changed
+[C# Project] First difference on line 50
+
+[C# Project] Current /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Player.csproj:
+[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
+[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextProcessingStack.cs" />
+[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextUtilities.cs" />
+[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteGlyph.cs" />
+[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs" />
+
+[C# Project] New /Users/rosenepthys/Desktop/UNI/UNITERM2/Group Project/Euro/Group 11 - Coursework/Unity.TextMeshPro.Player.csproj:
+[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs" />
+[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs" />
+[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs" />
+[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteGlyph.cs" />
+[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs" />
+2022-03-17 13:49:21.169 Unity[13249:324120] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000370c540 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-17 13:49:21.172 Unity[13249:324120] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000377dc70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 162.7 MB.
+
+Unloading 117 unused Assets to reduce memory usage. Loaded Objects now: 2043.
+Total: 2.430042 ms (FindLiveObjects: 0.086917 ms CreateObjectMapping: 0.034333 ms MarkObjects: 1.903542 ms  DeleteObjects: 0.404417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/GameLevels/MainLobby.unity
+  artifactKey: Guid(2aa5f8066c6648b47a20d084bd642246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/MainLobby.unity using Guid(2aa5f8066c6648b47a20d084bd642246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64461dd536dfba421da5c8da3e51a0ff') in 0.019285 seconds 
+  Import took 0.022096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-03-17 13:55:08.605 Unity[13249:324120] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003704380 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2244ms)
+		BeginReloadAssembly (354ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1792ms)
+			LoadAssemblies (311ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 3.388750 ms (FindLiveObjects: 0.078709 ms CreateObjectMapping: 0.029459 ms MarkObjects: 3.261792 ms  DeleteObjects: 0.017666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 905.199699 seconds.
+  path: Assets/UIScenes/Untitled-47 2.png
+  artifactKey: Guid(c1f7e5376174f4fb38b93640e2ea7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/Untitled-47 2.png using Guid(c1f7e5376174f4fb38b93640e2ea7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0efa4d2f94414084899e994bac7c2ec') in 0.829402 seconds 
+  Import took 0.842859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.792180 seconds.
+  path: Assets/UIScenes/Untitled-47 2.png
+  artifactKey: Guid(c1f7e5376174f4fb38b93640e2ea7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/Untitled-47 2.png using Guid(c1f7e5376174f4fb38b93640e2ea7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb421f1e2e086c9f23e85c3e71fabe42') in 0.093392 seconds 
+  Import took 0.095998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 590.001951 seconds.
+  path: Assets/UIScenes/Untitled-47 3.png
+  artifactKey: Guid(ced77442931cc41fb80d247565700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/Untitled-47 3.png using Guid(ced77442931cc41fb80d247565700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06e54f692339e2f95128dd9945ce616') in 0.063713 seconds 
+  Import took 0.080269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.579548 seconds.
+  path: Assets/UIScenes/Untitled-47 3.png
+  artifactKey: Guid(ced77442931cc41fb80d247565700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/Untitled-47 3.png using Guid(ced77442931cc41fb80d247565700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effa6eb17a59bebf5797881968a33103') in 0.023278 seconds 
+  Import took 0.026538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 610.164548 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0645ea7687142f71cea695d5cd3ba') in 0.008700 seconds 
+  Import took 0.021561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.781345 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02484b4e15a8c1dda95bb891507569') in 0.006557 seconds 
+  Import took 0.018296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.574889 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a629e249e83385dcf416e2f46d02315') in 0.005444 seconds 
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.153536 seconds.
+  path: Assets/Scenes/GameLevels/Belgium.unity
+  artifactKey: Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Belgium.unity using Guid(f2277b9bc80abfc4c9e04c4715075705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693b98fa1110fb1c43f0e23c14aa562a') in 0.006742 seconds 
+  Import took 0.018017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.219587 seconds.
+  path: Assets/UIScenes/PlayButton.png
+  artifactKey: Guid(238e3e1e209f04c1085ebe0c5d22232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/PlayButton.png using Guid(238e3e1e209f04c1085ebe0c5d22232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576ac9aa469216ed6e67f011064f5973') in 0.034787 seconds 
+  Import took 0.042241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.175075 seconds.
+  path: Assets/UIScenes/PlayButton.png
+  artifactKey: Guid(238e3e1e209f04c1085ebe0c5d22232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIScenes/PlayButton.png using Guid(238e3e1e209f04c1085ebe0c5d22232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a87fa0647d97f662abd94777c0a200') in 0.030612 seconds 
+  Import took 0.034036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1505.773081 seconds.
+  path: Assets/Scenes/GameLevels/Denmark.unity
+  artifactKey: Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Denmark.unity using Guid(4816a1d41f4870740a3b6e1923a5aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af73005d26a8a4fe3739290626575902') in 0.007487 seconds 
+  Import took 0.023490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.223908 seconds.
+  path: Assets/Scenes/GameLevels/Shop.unity
+  artifactKey: Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Shop.unity using Guid(4410dc03fe31789479efbbcfbf39a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010ffb4f95887a4bbb32361c542d1022') in 0.007793 seconds 
+  Import took 0.014569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 536.369189 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8af3409b935886db3dc5c8594f41e6') in 0.006825 seconds 
+  Import took 0.030027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.731561 seconds.
+  path: Assets/Scenes/GameLevels/Spain.unity
+  artifactKey: Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Spain.unity using Guid(54ef405f9fe8af645b5a7881a73ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dbbf93472691597c98fbf089d7781e') in 0.007435 seconds 
+  Import took 0.033052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.254227 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3cd32e9a96f8515bcb5c374e18c70') in 0.004811 seconds 
+  Import took 0.010872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.171709 seconds.
+  path: Assets/Scenes/GameLevels/Slovakia.unity
+  artifactKey: Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameLevels/Slovakia.unity using Guid(42dbce5d8c88d31489e34327ecd87a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba53c07168252d61cac05842c91997cc') in 0.006239 seconds 
+  Import took 0.018899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.526507 seconds.
+  path: Assets/Ingredients
+  artifactKey: Guid(472159b965313ee4291e36d786d449e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients using Guid(472159b965313ee4291e36d786d449e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d7b7c838ad5716d52770cd4447fe84') in 0.004012 seconds 
+  Import took 0.016875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.557816 seconds.
+  path: Assets/Ingredients/SkortoMitsi.png
+  artifactKey: Guid(d95bc7f6ebedb44b1a47b0465169ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/SkortoMitsi.png using Guid(d95bc7f6ebedb44b1a47b0465169ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe3b0b23c1d08d8bb82dc0b900ec296') in 0.052672 seconds 
+  Import took 0.067100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Ingredients/PiperkaKomena.png
+  artifactKey: Guid(14f041372c38344c48c95deec2bd7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/PiperkaKomena.png using Guid(14f041372c38344c48c95deec2bd7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaabc7e8874ea45ea66cbae66ebc5007') in 0.012087 seconds 
+  Import took 0.015042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Ingredients/Ntomatouess.png
+  artifactKey: Guid(b201d7c0e8d434d3b84902abeb30f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/Ntomatouess.png using Guid(b201d7c0e8d434d3b84902abeb30f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2a3ef91ed416d7c51da75fbee77d5f') in 0.009343 seconds 
+  Import took 0.011910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ingredients/AlotofCSus.png
+  artifactKey: Guid(39911c841353245339492a5b6491610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/AlotofCSus.png using Guid(39911c841353245339492a5b6491610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfcf3f9b12ff6b5688b802ee4e943d5') in 0.009908 seconds 
+  Import took 0.012113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Ingredients/ParsleyyCUUUT.png
+  artifactKey: Guid(af11decd1855f4eac8b92327511dac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ParsleyyCUUUT.png using Guid(af11decd1855f4eac8b92327511dac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76d5982daa5c5afc4b38f8e1c1c1424') in 0.008783 seconds 
+  Import took 0.011004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.119566 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants
+  artifactKey: Guid(f94eb7d5cddd248088655a441702a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants using Guid(f94eb7d5cddd248088655a441702a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f43ae94580789134f8bdd1084cb5e22') in 0.005508 seconds 
+  Import took 0.020801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.918414 seconds.
+  path: Assets/Ingredients/CookerCutlery
+  artifactKey: Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery using Guid(2df05af0fe869db42996ce15b6ab20fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22611c86a3906fce87d5a68bd58a845a') in 0.003970 seconds 
+  Import took 0.016681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081308 seconds.
+  path: Assets/Ingredients/CookerCutlery/bowl.fbx
+  artifactKey: Guid(a14f923e795ec0547805db9c86c12ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/bowl.fbx using Guid(a14f923e795ec0547805db9c86c12ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b701fb27f4b641e0c5fa5e1b13312164') in 1.706993 seconds 
+  Import took 1.714100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Ingredients/CookerCutlery/SovakianPot.fbx
+  artifactKey: Guid(92ffa7a18672d4566bfc3cf152a75c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/SovakianPot.fbx using Guid(92ffa7a18672d4566bfc3cf152a75c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27fd862033816f6bd90bbb6837bc7a3') in 0.381874 seconds 
+  Import took 0.386017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Ingredients/CookerCutlery/pSphere3.prefab
+  artifactKey: Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/pSphere3.prefab using Guid(e97ead889133841939785f9ae8f0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab2974a1404ecbeb6e7fca7fceaee42') in 0.545883 seconds 
+  Import took 0.549978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Ingredients/CookerCutlery/WaffleFull.fbx
+  artifactKey: Guid(84545a68f7e4a514a8c888a533d5583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/WaffleFull.fbx using Guid(84545a68f7e4a514a8c888a533d5583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea729f5c1114c96b5d0bde6c58ba297') in 0.044814 seconds 
+  Import took 0.047599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Ingredients/CookerCutlery/Knife.fbx
+  artifactKey: Guid(116bc0a87de6b42079ee06a708035da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/Knife.fbx using Guid(116bc0a87de6b42079ee06a708035da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14e05ae372aca322ab7a188062c084') in 0.057630 seconds 
+  Import took 0.060413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Ingredients/CookerCutlery/ButterPlate.fbx
+  artifactKey: Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/ButterPlate.fbx using Guid(28c28e469b8234a66be6bab085ebd2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a38af64e2dc175a5de616b11956e8e') in 0.022059 seconds 
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Ingredients/CookerCutlery/Knife4.fbx
+  artifactKey: Guid(16b17eebb1db3244f8c4a0eb1538f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/Knife4.fbx using Guid(16b17eebb1db3244f8c4a0eb1538f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15afce26b1117196acfe1f4c3850459c') in 0.037267 seconds 
+  Import took 0.039829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx
+  artifactKey: Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/PlateAndBowls.fbx using Guid(0cbed0f3b424e4858a20a5eab3d6b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90140b8007f894b8aeb6d2f1e3976c9f') in 0.069838 seconds 
+  Import took 0.072955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Ingredients/CookerCutlery/WaffleClosed.fbx
+  artifactKey: Guid(9e20c25818d37cd4791316d9e81bc750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/WaffleClosed.fbx using Guid(9e20c25818d37cd4791316d9e81bc750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25ebed9d18fc173c0bd90263dbbab60') in 0.044059 seconds 
+  Import took 0.046995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Ingredients/CookerCutlery/WaffeEmpty.fbx
+  artifactKey: Guid(d6d5d3333e1157c4db692e332cbcd273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/WaffeEmpty.fbx using Guid(d6d5d3333e1157c4db692e332cbcd273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f673cfc705e9ba46f3578477646b6aa0') in 0.047699 seconds 
+  Import took 0.050730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Ingredients/CookerCutlery/Cookwe.fbx
+  artifactKey: Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/Cookwe.fbx using Guid(0cbb21ae85fac4d73a314b2b57d69475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27208a4a75865fc2f91f1976edae7fdc') in 0.045790 seconds 
+  Import took 0.048336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Ingredients/CookerCutlery/SpoonANDboard.fbx
+  artifactKey: Guid(194a5a37bb6c7e6468854b1e1d58a76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/SpoonANDboard.fbx using Guid(194a5a37bb6c7e6468854b1e1d58a76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc8ae6ae73648e4190eba7a69d2084d') in 0.065925 seconds 
+  Import took 0.068273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Ingredients/CookerCutlery/spainPan.fbx
+  artifactKey: Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/spainPan.fbx using Guid(4c3a55d56abed4eefbbdbccb8efc1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e766e2f7a59945939e2429d711ba11c2') in 0.042966 seconds 
+  Import took 0.045686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Ingredients/CookerCutlery/Bowl2.fbx
+  artifactKey: Guid(b2967807550717e42929443bbb3ec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/Bowl2.fbx using Guid(b2967807550717e42929443bbb3ec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1130b04854a802214b1e12d8280492') in 0.033295 seconds 
+  Import took 0.036065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Ingredients/CookerCutlery/wHITEbAL4.fbx
+  artifactKey: Guid(e935a34d58d4a014ca084c80a2c04dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/wHITEbAL4.fbx using Guid(e935a34d58d4a014ca084c80a2c04dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002b1a431f7a5e1563e352b7629b5e67') in 0.024566 seconds 
+  Import took 0.027060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Ingredients/CookerCutlery/pCube2.prefab
+  artifactKey: Guid(884bfc15dbe184956909f9831ff8bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/pCube2.prefab using Guid(884bfc15dbe184956909f9831ff8bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4004cdb251f9f183194c3986ec37cf8c') in 0.009852 seconds 
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Ingredients/CookerCutlery/kNIDErOATTE2.fbx
+  artifactKey: Guid(ed9af8c16ac6eb647a2258a6dc73ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/kNIDErOATTE2.fbx using Guid(ed9af8c16ac6eb647a2258a6dc73ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471894a5828c521fab3b11965a23bed0') in 0.037625 seconds 
+  Import took 0.040087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Ingredients/CookerCutlery/sausePanTextured.fbx
+  artifactKey: Guid(d3564b79144e74f3091d6168fee90fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/CookerCutlery/sausePanTextured.fbx using Guid(d3564b79144e74f3091d6168fee90fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b8349d51b6656142d6e2b60006c6f') in 0.044612 seconds 
+  Import took 0.047272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.296068 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/AlotofCSus.png
+  artifactKey: Guid(39911c841353245339492a5b6491610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/AlotofCSus.png using Guid(39911c841353245339492a5b6491610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956f048866d80c0e5538f0724b0e0911') in 0.024316 seconds 
+  Import took 0.026671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.550038 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/Ntomatouess.png
+  artifactKey: Guid(b201d7c0e8d434d3b84902abeb30f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/Ntomatouess.png using Guid(b201d7c0e8d434d3b84902abeb30f77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ae922c397d38d648c90421ecdb5d91') in 0.014456 seconds 
+  Import took 0.018628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.968172 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/ParsleyyCUUUT.png
+  artifactKey: Guid(af11decd1855f4eac8b92327511dac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/ParsleyyCUUUT.png using Guid(af11decd1855f4eac8b92327511dac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f3db4b2c51d62d9019f9d02c680c8a') in 0.016166 seconds 
+  Import took 0.018801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.961685 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/PiperkaKomena.png
+  artifactKey: Guid(14f041372c38344c48c95deec2bd7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/PiperkaKomena.png using Guid(14f041372c38344c48c95deec2bd7d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3127eebaa4e08964535c8b777640a6e5') in 0.014788 seconds 
+  Import took 0.017813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.994776 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/SkortoMitsi.png
+  artifactKey: Guid(d95bc7f6ebedb44b1a47b0465169ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/SkortoMitsi.png using Guid(d95bc7f6ebedb44b1a47b0465169ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bb178ca477a63b6b95d140423ece8b') in 0.014383 seconds 
+  Import took 0.017160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.259802 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/oniosschoppitty.png
+  artifactKey: Guid(9a07f83db2f6b4df98ebcbfe2a655c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/oniosschoppitty.png using Guid(9a07f83db2f6b4df98ebcbfe2a655c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c41182b6860708c9ec8ec6efaba9f6') in 0.079580 seconds 
+  Import took 0.096270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.778990 seconds.
+  path: Assets/Ingredients/ChoppedIngridiants/oniosschoppitty.png
+  artifactKey: Guid(9a07f83db2f6b4df98ebcbfe2a655c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ingredients/ChoppedIngridiants/oniosschoppitty.png using Guid(9a07f83db2f6b4df98ebcbfe2a655c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee09e50d2c560b74c5ffb0758621d6') in 0.022985 seconds 
+  Import took 0.027050 seconds .
+
