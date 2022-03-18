@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4829,35 +4829,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5701151
+      value: 0.5738296
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2988078
+      value: 0.29161102
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.43065172
+      value: 0.42265782
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6326308
+      value: -0.63799924
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 62.325
+      value: 60.925
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 14.078
+      value: 13.443
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -87.41
+      value: -88.132
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
       propertyPath: m_Name
-      value: kNIDErOATTE2
+      value: Knife
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed9af8c16ac6eb647a2258a6dc73ec7b, type: 3}
@@ -9510,8 +9510,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6221639, y: 0.3865915, z: 1.8727536}
-  m_Center: {x: 0.01793747, y: 0.0037180134, z: -0.8363768}
+  m_Size: {x: 0.96775424, y: 0.893585, z: 1.8727536}
+  m_Center: {x: 0.015845552, y: 0.019687604, z: -0.83637273}
 --- !u!54 &2000392141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9568,7 +9568,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1c25a7405cc1d41c1a0b02311578a2d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9be6ca04e706604c8eb2dc5004952b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9586,13 +9586,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000392135}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.051834032, y: 0.14172156, z: 0.0074313064, w: 0.9885206}
   m_LocalPosition: {x: -0.443, y: 0.896, z: -0.0108}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.18428}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.18428}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.761, y: 16.403, z: 1.692}
 --- !u!1 &2052493549
 GameObject:
   m_ObjectHideFlags: 0
@@ -9981,6 +9981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BowlBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 595224944105059948, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
 --- !u!1001 &2684518739615609813
@@ -10037,6 +10041,10 @@ PrefabInstance:
     - target: {fileID: 2990454215638965557, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Name
       value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990454215638965557, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}

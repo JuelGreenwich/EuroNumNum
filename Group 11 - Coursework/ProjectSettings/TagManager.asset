@@ -9,6 +9,8 @@ TagManager:
   - Egg
   - EggRack
   - Spoon
+  - Save
+  - Counter
   layers:
   - Default
   - TransparentFX

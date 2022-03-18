@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3093,6 +3093,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &535078320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535078322}
+  - component: {fileID: 535078321}
+  - component: {fileID: 535078323}
+  m_Layer: 0
+  m_Name: BelgiumDD
+  m_TagString: Save
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &535078321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535078320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce2c59a88639e7498e2ec2d56154aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEnterBelgium: 0
+  CounterScript: {fileID: 0}
+--- !u!4 &535078322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535078320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.15452221, y: -3.3013284, z: 16.729816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535078323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535078320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2ab66fbb105e6489de2af1ae0ba69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &560190531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,9 +3843,10 @@ GameObject:
   - component: {fileID: 660728811}
   - component: {fileID: 660728817}
   - component: {fileID: 660728818}
+  - component: {fileID: 660728819}
   m_Layer: 0
-  m_Name: Counter
-  m_TagString: Untagged
+  m_Name: CounterBelgium
+  m_TagString: Counter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3952,6 +4011,20 @@ MonoBehaviour:
   stepX3isCrossed: 0
   changeList1: 0
   changeList2: 0
+--- !u!114 &660728819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660728809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce2c59a88639e7498e2ec2d56154aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEnterBelgium: 0
+  CounterScript: {fileID: 0}
 --- !u!1 &672668351
 GameObject:
   m_ObjectHideFlags: 0
