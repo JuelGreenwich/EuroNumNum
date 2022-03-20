@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Denmark\DenmarkPlates.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaChangePot.cs" />
-    <Compile Include="Assets\Scripts\Lists\ListSpain.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\KnifeDenmark.cs" />
     <Compile Include="Assets\Scripts\Slovakia\MeatAppear.cs" />
@@ -68,8 +67,6 @@
     <Compile Include="Assets\Scripts\EggStop.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\DragAndDropNEW.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkSpriteChange.cs" />
-    <Compile Include="Assets\Scripts\Lists\ListSlovakia.cs" />
-    <Compile Include="Assets\Scripts\Lists\ListDenmark.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\NavMeshPlayerController.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaItemOnBoard.cs" />
@@ -83,16 +80,18 @@
     <Compile Include="Assets\Scripts\Lists\XCross.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainItemOnBoard.cs" />
+    <Compile Include="Assets\Scripts\SceneSave.cs" />
+    <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\Pickable.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainOrder.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\CounterOrderIngredients.cs" />
     <Compile Include="Assets\Scripts\Slovakia\KnifeSlovakia.cs" />
     <Compile Include="Assets\Scripts\Spain\KnifeSpain.cs" />
+    <Compile Include="Assets\Scripts\StandsManager.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaOrder.cs" />
-    <Compile Include="Assets\Scripts\SceneSave.cs" />
-    <Compile Include="Assets\Scripts\DontDestroy.cs" />
-    <Compile Include="Assets\Scripts\StandsManager.cs" />
+    <Compile Include="Assets\Scripts\ShopOrder.cs" />
+    <Compile Include="Assets\Scripts\Lists\ListShop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

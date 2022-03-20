@@ -107,7 +107,6 @@ public class BelgiumOrder : MonoBehaviour
             //after 4 seconds make it close
             Invoke("NextStep", 4f);
 
-
             CrossThirdStep(12);
         }
         if (CounterScript.counter == 13)
@@ -115,9 +114,7 @@ public class BelgiumOrder : MonoBehaviour
             CloseWMaker();
 
             Invoke("ActivateDonePanel", 2f);
-
         }
-
     }
 
     void ActivateDragAndDrop(string s)

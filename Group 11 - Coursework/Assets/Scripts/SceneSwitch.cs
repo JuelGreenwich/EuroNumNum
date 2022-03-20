@@ -27,13 +27,11 @@ public class SceneSwitch : MonoBehaviour
 
     void Start()
     {
-        //sceneSwitch = this;
-        //sceneSwitch.
             enterStandPanelBelgium.SetActive(false);
-        //sceneSwitch.
             enterStandPanelSlovakia.SetActive(false);
-        //StandsScript = GameObject.FindGameObjectWithTag("Save").GetComponent<StandsManager>();
-        //BelgiumDD = GameObject.FindGameObjectWithTag("Save");
+            enterStandPanelDenmark.SetActive(false);
+            enterStandPanelSpain.SetActive(false);
+
         activateBelgiumPanel = true;
         activateSlovakiaPanel = true;
         activateDenmarkPanel = true;

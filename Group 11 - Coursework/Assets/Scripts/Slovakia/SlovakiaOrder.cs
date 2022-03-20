@@ -5,7 +5,6 @@ using UnityEngine;
 public class SlovakiaOrder : MonoBehaviour
 {
     DragAndDropNEW DnDScript;
-    int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
     [SerializeField] GameObject Mix;
     [SerializeField] BoxCollider BowlCollider;
@@ -14,7 +13,6 @@ public class SlovakiaOrder : MonoBehaviour
 
     XCross XCrossScript;
 
-    // Start is called before the first frame update
     void Start()
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();

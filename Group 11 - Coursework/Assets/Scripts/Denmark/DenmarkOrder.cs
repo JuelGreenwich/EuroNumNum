@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class DenmarkOrder : MonoBehaviour
 {
     DragAndDropNEW DnDScript;
-    int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
 
     XCross XCrossScript;
@@ -74,7 +73,6 @@ public class DenmarkOrder : MonoBehaviour
             Invoke("ActivateDonePanel", 2f);
             //Invoke("BackToLobby", 5f);
         }
-
     }
 
     void ActivateDragAndDrop(string s)

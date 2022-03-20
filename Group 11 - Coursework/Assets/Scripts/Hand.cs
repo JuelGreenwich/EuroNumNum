@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
+    [SerializeField] float mouseZ =1.7f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,7 @@ public class Hand : MonoBehaviour
     void Update()
     {
         var inputMousePos = Input.mousePosition;
-        inputMousePos.z = 1.7f;
+        inputMousePos.z = mouseZ;
         var mousePosition = (Vector2)Camera.main.ScreenToWorldPoint(inputMousePos);
         //print(Camera.main.ScreenToWorldPoint(Input.mousePosition));
         transform.position = mousePosition;

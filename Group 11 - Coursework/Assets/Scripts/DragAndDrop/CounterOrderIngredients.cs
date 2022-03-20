@@ -5,15 +5,4 @@ using UnityEngine;
 public class CounterOrderIngredients : MonoBehaviour
 {
     public int counter = 1;
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-
-    }
-
 }
