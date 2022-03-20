@@ -12,6 +12,7 @@ TagManager:
   - Save
   - Counter
   - EnterPanel
+  - Panel
   layers:
   - Default
   - TransparentFX

@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevels/Spain.unity
     guid: 54ef405f9fe8af645b5a7881a73ef823
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/Shop.unity
+    guid: 4410dc03fe31789479efbbcfbf39a688
   m_configObjects: {}

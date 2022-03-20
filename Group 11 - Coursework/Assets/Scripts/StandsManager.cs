@@ -14,6 +14,7 @@ public class StandsManager : MonoBehaviour
     public bool canEnterSlovakia;
     public bool canEnterDenmark;
     public bool canEnterSpain;
+    public bool canEnterShop;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class StandsManager : MonoBehaviour
         canEnterSlovakia = true;
         canEnterDenmark = true;
         canEnterSpain = true;
+        canEnterShop = true;
     }
 
     // Update is called once per frame
@@ -62,6 +64,11 @@ public class StandsManager : MonoBehaviour
                 canEnterSpain = false;
             }
 
+            //Shop
+            if (CounterScript.gameObject.name == "CounterShop" && CounterScript.counter == 30)
+            {
+                canEnterShop = false;
+            }
         }
     }
 }

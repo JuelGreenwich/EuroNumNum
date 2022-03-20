@@ -21,6 +21,7 @@ public class ShopOrder : MonoBehaviour
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
         XCrossScript = gameObject.GetComponent<XCross>();
         ColliderObj = gameObject.GetComponent<Collider>();
+        ColliderObj.enabled = false;
 
 
         for(int i=0; i<X.Length; i++)
@@ -61,188 +62,171 @@ public class ShopOrder : MonoBehaviour
 
             X[3].enabled = true;
         }
-        if (CounterScript.counter == 6)
-        {
-            X[4].enabled = true;
-        }
 
         //Belgium
-        if (CounterScript.counter == 7)
+        if (CounterScript.counter == 6)
         {
             ActivateDragAndDrop("Flour");
 
             ResetX();
         }
-        if (CounterScript.counter == 8)
+        if (CounterScript.counter == 7)
         {
             ActivateDragAndDrop("BPowder");
 
             X[0].enabled = true;
         }
-        if (CounterScript.counter == 9)
+        if (CounterScript.counter == 8)
         {
             ActivateDragAndDrop("Sugar");
 
             X[1].enabled = true;
         }
-        if (CounterScript.counter == 10)
+        if (CounterScript.counter == 9)
         {
             ActivateDragAndDrop("Milk");
 
             X[2].enabled = true;
         }
-        if (CounterScript.counter == 11)
+        if (CounterScript.counter == 10)
         {
-            ActivateDragAndDrop("Eggs");
+            ActivateDragAndDrop("Eggs1");
 
             X[3].enabled = true;
         }
-        if (CounterScript.counter == 12)
+        if (CounterScript.counter == 11)
         {
             ActivateDragAndDrop("Butter");
 
             X[4].enabled = true;
         }
-        if (CounterScript.counter == 13)
+        if (CounterScript.counter == 12)
         {
             ActivateDragAndDrop("Vanilla");
 
             X[5].enabled = true;
         }
-        if (CounterScript.counter == 14)
-        {
-            X[6].enabled = true;
-        }
 
         //Slovakia
-        if (CounterScript.counter == 15)
+        if (CounterScript.counter == 13)
         {
             ActivateDragAndDrop("Meat");
 
             ResetX();
         }
-        if (CounterScript.counter == 16)
+        if (CounterScript.counter == 14)
         {
             ActivateDragAndDrop("Rice");
 
             X[0].enabled = true;
         }
-        if (CounterScript.counter == 17)
+        if (CounterScript.counter == 15)
         {
             ActivateDragAndDrop("Onion");
 
             X[1].enabled = true;
         }
-        if (CounterScript.counter == 18)
+        if (CounterScript.counter == 16)
         {
-            ActivateDragAndDrop("Eggs");
+            ActivateDragAndDrop("Eggs2");
 
             X[2].enabled = true;
         }
-        if (CounterScript.counter == 19)
+        if (CounterScript.counter == 17)
         {
             ActivateDragAndDrop("Garlic");
 
             X[3].enabled = true;
         }
-        if (CounterScript.counter == 20)
+        if (CounterScript.counter == 18)
         {
             ActivateDragAndDrop("TomatoSauce");
 
             X[4].enabled = true;
         }
-        if (CounterScript.counter == 21)
+        if (CounterScript.counter == 19)
         {
             ActivateDragAndDrop("Oil");
 
             X[5].enabled = true;
         }
-        if (CounterScript.counter == 22)
-        {
-            X[6].enabled = true;
-        }
 
         //Spain
-        if (CounterScript.counter == 23)
+        if (CounterScript.counter == 20)
         {
             ActivateDragAndDrop("Stock");
 
             ResetX();
         }
-        if (CounterScript.counter == 24)
+        if (CounterScript.counter == 21)
         {
             ActivateDragAndDrop("Saffron");
 
             X[0].enabled = true;
         }
-        if (CounterScript.counter == 25)
+        if (CounterScript.counter == 22)
         {
-            ActivateDragAndDrop("Garlic");
+            ActivateDragAndDrop("Mussels");
 
             X[1].enabled = true;
         }
-        if (CounterScript.counter == 26)
+        if (CounterScript.counter == 23)
         {
             ActivateDragAndDrop("Tomato");
 
             X[2].enabled = true;
         }
-        if (CounterScript.counter == 27)
+        if (CounterScript.counter == 24)
         {
             ActivateDragAndDrop("Pepper");
 
             X[3].enabled = true;
         }
-        if (CounterScript.counter == 28)
+        if (CounterScript.counter == 25)
         {
             ActivateDragAndDrop("Sausage");
 
             X[4].enabled = true;
         }
-        if (CounterScript.counter == 29)
+        if (CounterScript.counter == 26)
         {
             ActivateDragAndDrop("BombaRice");
 
             X[5].enabled = true;
         }
-        if (CounterScript.counter == 30)
+        if (CounterScript.counter == 27)
         {
             ActivateDragAndDrop("Parsley");
 
             X[6].enabled = true;
         }
-        if (CounterScript.counter == 31)
+        if (CounterScript.counter == 28)
         {
             ActivateDragAndDrop("Peas");
 
             X[7].enabled = true;
         }
-        if (CounterScript.counter == 32)
+        if (CounterScript.counter == 29)
         {
             ActivateDragAndDrop("Shrimp");
-            ActivateDragAndDrop("Mussels");
 
             X[8].enabled = true;
         }
-        if (CounterScript.counter == 33)
+        if (CounterScript.counter == 30)
         {
             X[9].enabled = true;
-        }
 
-        if (CounterScript.counter == 14)
-        {
-            CrossThirdStep(8);
-            Invoke("ActivateDonePanel", 2f);
-            //Invoke("BackToLobby", 5f);
+            Invoke("BackToLobby", 2f);
         }
     }
 
     void ActivateDragAndDrop(string s)
     {
         if (gameObject.name == s)
+        {
             DnDScript.enabled = true;
-
-        ColliderObj.enabled = true;
+            ColliderObj.enabled = true;
+        }
     }
 
     void CrossFirstStep(int nr)

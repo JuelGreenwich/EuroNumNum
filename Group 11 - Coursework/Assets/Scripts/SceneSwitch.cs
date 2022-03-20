@@ -17,25 +17,31 @@ public class SceneSwitch : MonoBehaviour
     public GameObject enterStandPanelSlovakia;
     public GameObject enterStandPanelDenmark;
     public GameObject enterStandPanelSpain;
+    public GameObject enterStandPanelShop;
 
     //Panels activate
     public bool activateBelgiumPanel;
     public bool activateSlovakiaPanel;
     public bool activateDenmarkPanel;
     public bool activateSpainPanel;
+    public bool activateShopPanel;
 
+    public bool wentToShop;
 
     void Start()
     {
-            enterStandPanelBelgium.SetActive(false);
-            enterStandPanelSlovakia.SetActive(false);
-            enterStandPanelDenmark.SetActive(false);
-            enterStandPanelSpain.SetActive(false);
+        enterStandPanelBelgium.SetActive(false);
+        enterStandPanelSlovakia.SetActive(false);
+        enterStandPanelDenmark.SetActive(false);
+        enterStandPanelSpain.SetActive(false);
+        enterStandPanelShop.SetActive(false);
 
         activateBelgiumPanel = true;
         activateSlovakiaPanel = true;
         activateDenmarkPanel = true;
         activateSpainPanel = true;
+        activateShopPanel = true;
+
     }
     void OnTriggerEnter(Collider other)
     {
@@ -49,6 +55,7 @@ public class SceneSwitch : MonoBehaviour
 
     void Update()
     {
+        print(wentToShop);
         if(GameObject.FindGameObjectWithTag("Save") != null)
         {
             //get the Stands Manager reference
@@ -75,25 +82,33 @@ public class SceneSwitch : MonoBehaviour
                 activateSpainPanel = false; 
             }
 
+            if (StandsScript.canEnterShop == false)
+            {
+                activateShopPanel = false;
+                wentToShop = true;
+            }
+            else
+            {
+                wentToShop = false;
+            }
         }
+
         //Belgium
-        if (hasPlayer == true && activateBelgiumPanel == true && gameObject.name == "Belgium")
+        if (hasPlayer == true && activateBelgiumPanel == true && gameObject.name == "Belgium" && wentToShop == true)
         {
-            print("belgium panel");
-            //sceneSwitch.
+            //print("belgium panel");
             enterStandPanelBelgium.SetActive(true);
             Belgium();
         }
         else
         {
-            //sceneSwitch.
-                enterStandPanelBelgium.SetActive(false);
+            enterStandPanelBelgium.SetActive(false);
         }
 
         //Slovakia
-        if (hasPlayer == true && activateSlovakiaPanel == true && gameObject.name == "Slovakia")
+        if (hasPlayer == true && activateSlovakiaPanel == true && gameObject.name == "Slovakia" && wentToShop == true)
         {
-            print("slovakia panel");
+            //print("slovakia panel");
             enterStandPanelSlovakia.SetActive(true);
             Slovakia();
 
@@ -104,9 +119,9 @@ public class SceneSwitch : MonoBehaviour
         }
 
         //Denmark
-        if (hasPlayer == true && activateDenmarkPanel == true && gameObject.name == "Denmark")
+        if (hasPlayer == true && activateDenmarkPanel == true && gameObject.name == "Denmark" && wentToShop == true)
         {
-            print("slovakia panel");
+            //print("slovakia panel");
             enterStandPanelDenmark.SetActive(true);
             Denmark();
         }
@@ -116,25 +131,34 @@ public class SceneSwitch : MonoBehaviour
         }
 
         //Spain
-        if (hasPlayer == true && activateSpainPanel == true && gameObject.name == "Spain")
+        if (hasPlayer == true && activateSpainPanel == true && gameObject.name == "Spain" && wentToShop == true)
         {
-            print("slovakia panel");
+            //print("slovakia panel");
             enterStandPanelSpain.SetActive(true);
-            Denmark();
+            Spain();
         }
         else
         {
             enterStandPanelSpain.SetActive(false);
         }
 
-
+        //Shop
+        if (hasPlayer == true && activateShopPanel == true && gameObject.name == "Shop")
+        {
+            //print("shop panel");
+            enterStandPanelShop.SetActive(true);
+            Shop();
+        }
+        else
+        {
+            enterStandPanelShop.SetActive(false);
+        }
     }
 
     void EnterScene()
     {
         SceneManager.LoadScene(sceneName);
-        //sceneSwitch.
-            enterStandPanelBelgium.SetActive(false);
+        enterStandPanelBelgium.SetActive(false);
     }
 
     void BackToLobby()
@@ -196,6 +220,21 @@ public class SceneSwitch : MonoBehaviour
                 EnterScene();
             }
             else if (StandsScript.canEnterSpain == true)
+            {
+                EnterScene();
+            }
+        }
+    }
+
+    void Shop()
+    {
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            if (GameObject.FindGameObjectWithTag("Save") == null)
+            {
+                EnterScene();
+            }
+            else if (StandsScript.canEnterShop == true)
             {
                 EnterScene();
             }
