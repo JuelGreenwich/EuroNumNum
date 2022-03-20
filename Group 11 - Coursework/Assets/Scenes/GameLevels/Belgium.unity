@@ -461,6 +461,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &30787428
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,6 +844,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &59718367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1021,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &65491900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1198,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &93908511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1732,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &206461214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +2933,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &494656393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,8 +3129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ce2c59a88639e7498e2ec2d56154aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canEnterBelgium: 0
   CounterScript: {fileID: 0}
+  canEnterBelgium: 0
+  canEnterSlovakia: 0
+  canEnterDenmark: 0
+  canEnterSpain: 0
 --- !u!4 &535078322
 Transform:
   m_ObjectHideFlags: 0
@@ -3285,7 +3294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &574392390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3887,6 +3896,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 1151948757}
   WMakerFull: {fileID: 2061659901}
   WMakerClosed: {fileID: 135156792}
+  DonePanel: {fileID: 574392389}
 --- !u!114 &660728812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4023,8 +4033,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ce2c59a88639e7498e2ec2d56154aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canEnterBelgium: 0
   CounterScript: {fileID: 0}
+  canEnterBelgium: 0
+  canEnterSlovakia: 0
+  canEnterDenmark: 0
+  canEnterSpain: 0
 --- !u!1 &672668351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,6 +4560,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!114 &697762486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4644,6 +4658,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &764461862
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,6 +5088,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &793908570
 GameObject:
   m_ObjectHideFlags: 0
@@ -6211,6 +6227,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!114 &1164515735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7051,7 +7068,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1277279093}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1852516848}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: LoadToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1277279093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7159,7 +7188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 84545a68f7e4a514a8c888a533d5583c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84545a68f7e4a514a8c888a533d5583c, type: 3}
@@ -8064,7 +8093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9e20c25818d37cd4791316d9e81bc750, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e20c25818d37cd4791316d9e81bc750, type: 3}
@@ -9140,6 +9169,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!114 &1905108800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9685,6 +9715,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!114 &1972134012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9998,6 +10029,7 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}
 --- !u!1 &2041086953
 GameObject:
   m_ObjectHideFlags: 0
@@ -10765,3 +10797,4 @@ MonoBehaviour:
   WMakerEmpty: {fileID: 0}
   WMakerFull: {fileID: 0}
   WMakerClosed: {fileID: 0}
+  DonePanel: {fileID: 0}

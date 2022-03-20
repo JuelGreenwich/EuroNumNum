@@ -4,31 +4,64 @@ using UnityEngine;
 
 public class StandsManager : MonoBehaviour
 {
-    public bool canEnterBelgium;
+
+
+    //Counter script
     [SerializeField] CounterOrderIngredients CounterScript;
-    // Start is called before the first frame update
+
+    //Check if you can enter panels
+    public bool canEnterBelgium;
+    public bool canEnterSlovakia;
+    public bool canEnterDenmark;
+    public bool canEnterSpain;
+
     void Start()
     {
         //CounterScript = GameObject.FindGameObjectWithTag("Counter").GetComponent<CounterOrderIngredients>();
         //CounterScript = GetComponent<CounterOrderIngredients>();
         canEnterBelgium = true;
+        canEnterSlovakia = true;
+        canEnterDenmark = true;
+        canEnterSpain = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Get reference to the Counter
         if (GameObject.FindGameObjectWithTag("Counter") != null)
         {
             CounterScript = GameObject.FindGameObjectWithTag("Counter").GetComponent<CounterOrderIngredients>();
         }
+
         if (CounterScript != null)
         {
-            if(gameObject.name == "BelgiumDD" && CounterScript.counter == 2) //and if counter
+            print(CounterScript.counter);
+
+            //Belgium
+            if (CounterScript.gameObject.name == "CounterBelgium" && CounterScript.counter == 13) 
             {
-                //finished
                 canEnterBelgium = false;
             }
-        }
 
+            //Slovakia
+            if (CounterScript.gameObject.name == "CounterSlovakia" && CounterScript.counter == 15) 
+            {
+                canEnterSlovakia = false;
+            }
+
+            //Denmark
+            if (CounterScript.gameObject.name == "CounterDenmark" && CounterScript.counter == 8)
+            {
+                canEnterDenmark = false;
+            }
+
+            //Spain
+            if (CounterScript.gameObject.name == "CounterSpain" && CounterScript.counter == 16)
+            {
+                canEnterSpain = false;
+            }
+
+        }
     }
 }

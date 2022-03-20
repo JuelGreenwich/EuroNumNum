@@ -10,6 +10,8 @@ public class SlovakiaOrder : MonoBehaviour
     [SerializeField] GameObject Mix;
     [SerializeField] BoxCollider BowlCollider;
 
+    [SerializeField] GameObject DonePanel;
+
     XCross XCrossScript;
 
     // Start is called before the first frame update
@@ -17,6 +19,11 @@ public class SlovakiaOrder : MonoBehaviour
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
         XCrossScript = gameObject.GetComponent<XCross>();
+
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -117,6 +124,8 @@ public class SlovakiaOrder : MonoBehaviour
         if (CounterScript.counter == 15) //Pasley
         {
             CrossThirdStep(15);
+
+            Invoke("ActivateDonePanel", 2f);
         }
     }
 
@@ -163,6 +172,14 @@ public class SlovakiaOrder : MonoBehaviour
         if (XCrossScript != null)
         {
             XCrossScript.changeList2 = nr;
+        }
+    }
+
+    void ActivateDonePanel()
+    {
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(true);
         }
     }
 }

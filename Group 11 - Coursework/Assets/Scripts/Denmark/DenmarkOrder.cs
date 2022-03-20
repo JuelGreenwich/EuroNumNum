@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DenmarkOrder : MonoBehaviour
 {
@@ -10,11 +11,17 @@ public class DenmarkOrder : MonoBehaviour
 
     XCross XCrossScript;
 
+    [SerializeField] GameObject DonePanel;
+
     // Start is called before the first frame update
     void Start()
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
         XCrossScript = gameObject.GetComponent<XCross>();
+        if(DonePanel != null)
+        {
+            DonePanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -64,6 +71,8 @@ public class DenmarkOrder : MonoBehaviour
         if (CounterScript.counter == 8)
         {
             CrossThirdStep(8);
+            Invoke("ActivateDonePanel", 2f);
+            //Invoke("BackToLobby", 5f);
         }
 
     }
@@ -104,5 +113,18 @@ public class DenmarkOrder : MonoBehaviour
         {
             XCrossScript.changeList1 = nr;
         }
+    }
+
+    void ActivateDonePanel()
+    {
+        if(DonePanel != null)
+        {
+        DonePanel.SetActive(true);
+        }
+    }
+
+    void BackToLobby()
+    {
+        SceneManager.LoadScene("MainLobby");
     }
 }

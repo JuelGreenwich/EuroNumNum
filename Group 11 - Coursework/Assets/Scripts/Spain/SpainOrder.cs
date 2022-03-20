@@ -8,6 +8,8 @@ public class SpainOrder : MonoBehaviour
     int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
 
+    [SerializeField] GameObject DonePanel;
+
     XCross XCrossScript;
 
     // Start is called before the first frame update
@@ -15,6 +17,11 @@ public class SpainOrder : MonoBehaviour
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
         XCrossScript = gameObject.GetComponent<XCross>();
+
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -106,6 +113,8 @@ public class SpainOrder : MonoBehaviour
         if (CounterScript.counter == 16) 
         {
             CrossThirdStep(16);
+
+            Invoke("ActivateDonePanel", 2f);
         }
 
     }
@@ -153,6 +162,14 @@ public class SpainOrder : MonoBehaviour
         if (XCrossScript != null)
         {
             XCrossScript.changeList2 = nr;
+        }
+    }
+
+    void ActivateDonePanel()
+    {
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(true);
         }
     }
 }

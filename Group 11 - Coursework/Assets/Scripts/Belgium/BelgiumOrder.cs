@@ -5,7 +5,6 @@ using UnityEngine;
 public class BelgiumOrder : MonoBehaviour
 {
     DragAndDropNEW DnDScript;
-    int counter = 1;
     [SerializeField] CounterOrderIngredients CounterScript;
     XCross XCrossScript;
 
@@ -13,12 +12,27 @@ public class BelgiumOrder : MonoBehaviour
     [SerializeField] GameObject WMakerFull;
     [SerializeField] GameObject WMakerClosed;
 
+    [SerializeField] GameObject DonePanel;
 
-    // Start is called before the first frame update
     void Start()
     {
         DnDScript = gameObject.GetComponent<DragAndDropNEW>();
         XCrossScript = gameObject.GetComponent<XCross>();
+
+        if(WMakerFull != null)
+        {
+            WMakerFull.SetActive(false);
+        }
+
+        if (WMakerClosed != null)
+        {
+            WMakerClosed.SetActive(false);
+        }
+
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -88,19 +102,20 @@ public class BelgiumOrder : MonoBehaviour
         }
         if (CounterScript.counter == 12) //CHANGE W MAKER SPRITES
         {
-            ChangeSpriteDeactivate(WMakerEmpty); //delete the empty one
-            ChangeSpriteActivate(WMakerFull); //make the full one appear
+            PutComposition();
 
-            CounterScript.counter = 13;
+            //after 4 seconds make it close
+            Invoke("NextStep", 4f);
+
 
             CrossThirdStep(12);
         }
         if (CounterScript.counter == 13)
         {
-            //after 3 seconds make it close
-            Invoke("CloseWMaker", 4f);
+            CloseWMaker();
 
-            //Invoke("ChangeSpriteDeactivate(WMakerFull)", 3f); - INVOKE doesn't work for functions with parameters  
+            Invoke("ActivateDonePanel", 2f);
+
         }
 
     }
@@ -111,11 +126,11 @@ public class BelgiumOrder : MonoBehaviour
             DnDScript.enabled = true;
     }
 
-    void ChangeSpriteDeactivate(GameObject obj)
+    void ChangeSpriteDeactivate(GameObject obj1)
     {
-        if (obj != null)
+        if (obj1 != null)
         {
-            obj.SetActive(false); //Make the object invisible
+            obj1.SetActive(false); //Make the object invisible
         }
     }
 
@@ -131,6 +146,12 @@ public class BelgiumOrder : MonoBehaviour
     {
         ChangeSpriteDeactivate(WMakerFull);
         ChangeSpriteActivate(WMakerClosed);
+    }
+
+    void PutComposition() 
+    {
+        ChangeSpriteDeactivate(WMakerEmpty);
+        ChangeSpriteActivate(WMakerFull);
     }
 
     void CrossFirstStep(int nr)
@@ -170,6 +191,19 @@ public class BelgiumOrder : MonoBehaviour
         if (XCrossScript != null)
         {
             XCrossScript.changeList2 = nr;
+        }
+    }
+
+    void NextStep()
+    {
+        CounterScript.counter = 13;
+    }
+
+    void ActivateDonePanel()
+    {
+        if (DonePanel != null)
+        {
+            DonePanel.SetActive(true);
         }
     }
 }
