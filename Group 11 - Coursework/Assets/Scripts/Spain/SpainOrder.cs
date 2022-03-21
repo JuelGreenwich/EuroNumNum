@@ -115,6 +115,8 @@ public class SpainOrder : MonoBehaviour
             CrossThirdStep(16);
 
             Invoke("ActivateDonePanel", 2f);
+
+            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
 
     }

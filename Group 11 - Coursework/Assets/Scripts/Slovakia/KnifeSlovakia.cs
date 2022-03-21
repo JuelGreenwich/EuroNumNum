@@ -47,13 +47,5 @@ public class KnifeSlovakia : MonoBehaviour
                 GarlicCut.SetActive(true);
             }
         }
-        if (other.gameObject.name == "Mix")
-        {
-            if (DnDScript.isPicked == true && OnBoardScript.mixOnBoard == true)
-            {
-                other.gameObject.SetActive(false);
-                MeatBalls.SetActive(true);
-            }
-        }
     }
 }

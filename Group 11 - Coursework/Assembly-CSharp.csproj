@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Belgium\BelgiumOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainChangePot.cs" />
+    <Compile Include="Assets\Scripts\Glow\GlowObject.cs" />
     <Compile Include="Assets\Scripts\Lists\XCross.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainItemOnBoard.cs" />
@@ -94,7 +95,7 @@
     <Compile Include="Assets\Scripts\StandsManager.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaOrder.cs" />
-    <Compile Include="Assets\Scripts\Glow\GlowObject.cs" />
+    <Compile Include="Assets\Scripts\Slovakia\SlovakiaScoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -676,6 +677,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -690,6 +694,9 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -708,12 +715,6 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

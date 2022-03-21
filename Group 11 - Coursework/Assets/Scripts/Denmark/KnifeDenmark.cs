@@ -29,6 +29,8 @@ public class KnifeDenmark : MonoBehaviour
             {
             other.gameObject.SetActive(false);
             newCucumber.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
         if(other.gameObject.name == "OnionFull")
@@ -38,6 +40,8 @@ public class KnifeDenmark : MonoBehaviour
             {
             other.gameObject.SetActive(false);
             newOnion.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
     }

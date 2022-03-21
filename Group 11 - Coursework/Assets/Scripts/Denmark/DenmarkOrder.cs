@@ -72,6 +72,8 @@ public class DenmarkOrder : MonoBehaviour
             CrossThirdStep(8);
             Invoke("ActivateDonePanel", 2f);
             //Invoke("BackToLobby", 5f);
+
+            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
     }
 

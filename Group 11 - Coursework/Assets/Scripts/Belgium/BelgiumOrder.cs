@@ -114,6 +114,8 @@ public class BelgiumOrder : MonoBehaviour
             CloseWMaker();
 
             Invoke("ActivateDonePanel", 2f);
+
+            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
     }
 

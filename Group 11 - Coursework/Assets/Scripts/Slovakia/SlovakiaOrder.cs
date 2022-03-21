@@ -102,7 +102,8 @@ public class SlovakiaOrder : MonoBehaviour
         {
             ActivateDragAndDrop("Mix");
             ActivateDragAndDrop("Meatballs");
-            //activate some hand
+            ActivateDragAndDrop("MeatballScoop");
+            
 
             //deactivate the collider of the bowl
             if (BowlCollider != null)
@@ -124,6 +125,8 @@ public class SlovakiaOrder : MonoBehaviour
             CrossThirdStep(15);
 
             Invoke("ActivateDonePanel", 2f);
+
+            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
     }
 

@@ -34,6 +34,8 @@ public class EggSpriteChange : MonoBehaviour
                                                           //ChangeSprite();
 
                 CounterScript.counter = 7;
+
+                FindObjectOfType<AudioManager>().PlayAudio("EggCracked");
             }
         }
         if (gameObject.tag == "EggRack")

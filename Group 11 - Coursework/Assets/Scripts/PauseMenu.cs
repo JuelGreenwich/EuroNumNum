@@ -10,8 +10,15 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject exitPannel;
     public GameObject resumePannel;
-
+    public GameObject startPannel;
     public GameObject pauseMenuUI;
+
+    void Awake()
+    {
+        startPannel.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPasued = true;
+    }
 
     void Update()
     {
@@ -43,6 +50,8 @@ public class PauseMenu : MonoBehaviour
         //The timescale is set to 1 to unfreeze time.
         pauseMenuUI.SetActive(false);
         resumePannel.SetActive(false);
+        startPannel.SetActive(false);
+       
         Time.timeScale = 1f;
         GameIsPasued = false;
     }
@@ -77,5 +86,12 @@ public class PauseMenu : MonoBehaviour
         GameIsPasued = true;
         Debug.Log("Pasued");
         //Pause();
+    }
+
+    public void ResumeFromExitPannel()
+    {
+        exitPannel.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPasued = false;
     }
 }
