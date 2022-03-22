@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{A0052EA8-76FF-B91E-3FA8-C03B79B7BB0E}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/PauseMenu.cs" Line="45" Column="39" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="45" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2f1fda27-cde1-4ecf-a072-a016c3775150" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="205451b5-a815-4d96-9c14-10e0b5b6cc10" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
