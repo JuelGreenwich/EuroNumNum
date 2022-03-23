@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.3, y: 263}
+  m_AnchoredPosition: {x: -1.6, y: 263}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19594866
@@ -271,10 +271,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Add in another bowl
+  m_Text: 'Add into White bowl
 
 '
 --- !u!222 &19594867
@@ -348,7 +348,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: 8d4d032b609474010b4b50c7d434a525, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79ae7b035d45140bfa6906f5b088a881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -368,7 +368,7 @@ Transform:
   m_GameObject: {fileID: 25348570}
   m_LocalRotation: {x: -0, y: -0.05738966, z: -0, w: 0.9983519}
   m_LocalPosition: {x: -1.57, y: 0.419, z: -0.1284109}
-  m_LocalScale: {x: 0.1418599, y: 0.1418599, z: 0.1418599}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.1418599}
   m_Children: []
   m_Father: {fileID: 571592055}
   m_RootOrder: 3
@@ -427,8 +427,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5262992, y: 1.8448704, z: 3}
-  m_Center: {x: 0.19544129, y: 0.0003365526, z: 0}
+  m_Size: {x: 0.93129015, y: 1.4154601, z: 3}
+  m_Center: {x: -0.02393311, y: 0.027187586, z: -2.9544012e-10}
 --- !u!54 &25348577
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2184,7 +2184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: 'Put the batter into the waffle iron '
+  m_Text: 'Put the White bowls batter into the waffle iron '
 --- !u!222 &307852410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3330,7 +3330,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'In another bowl mix '
+  m_Text: Add into Blue bowl
 --- !u!222 &560190534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4708,7 +4708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2684518741510958598, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Size.z
-      value: 0.024947066
+      value: 0.033436693
       objectReference: {fileID: 0}
     - target: {fileID: 2684518741510958598, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Center.x
@@ -4716,11 +4716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2684518741510958598, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Center.y
-      value: -0.0039184582
+      value: -0.003918514
       objectReference: {fileID: 0}
     - target: {fileID: 2684518741510958598, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Center.z
-      value: 0.0065194587
+      value: 0.0022746776
       objectReference: {fileID: 0}
     - target: {fileID: 2684518741510958599, guid: 4ce2f78d236472746a9f15b012f394d7, type: 3}
       propertyPath: m_Enabled
@@ -5811,7 +5811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &910789232
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6728,7 +6728,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.24, y: 1.42, z: 5}
+  m_Size: {x: 1.24, y: 1.42, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1164515740
 Rigidbody:
@@ -9212,7 +9212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.7, y: 188.3}
+  m_AnchoredPosition: {x: 3.7, y: 192.1}
   m_SizeDelta: {x: 141.5271, y: 94.9145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1753749276
@@ -9248,7 +9248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pour the milk mixture into the dry ingredients
+  m_Text: Pour the Blue bowl milk mixture into the white bowls dry ingredients
 --- !u!222 &1753749277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9877,7 +9877,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.24, y: 1.42, z: 5}
+  m_Size: {x: 1.24, y: 1.42, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1905108805
 Rigidbody:
@@ -10841,7 +10841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1416675786, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
       propertyPath: m_Size.z
-      value: 0.025944512
+      value: 0.034087807
       objectReference: {fileID: 0}
     - target: {fileID: 1416675786, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
       propertyPath: m_Center.x
@@ -10849,11 +10849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1416675786, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
       propertyPath: m_Center.y
-      value: -0.00018167756
+      value: -0.00018167763
       objectReference: {fileID: 0}
     - target: {fileID: 1416675786, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
       propertyPath: m_Center.z
-      value: 0.0060207294
+      value: 0.0019491151
       objectReference: {fileID: 0}
     - target: {fileID: 218839382359354582, guid: 58115698448353c42a50e5dbe95b1d55, type: 3}
       propertyPath: m_RootOrder

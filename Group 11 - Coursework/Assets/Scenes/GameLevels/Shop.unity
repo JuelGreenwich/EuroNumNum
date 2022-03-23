@@ -2963,7 +2963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: '-Onions
+  m_Text: '-Onion
 
 
 '
@@ -8399,7 +8399,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "-Baking powder  \r\n"
+  m_Text: '-Baking Soda
+
+'
 --- !u!222 &1543854566
 CanvasRenderer:
   m_ObjectHideFlags: 0

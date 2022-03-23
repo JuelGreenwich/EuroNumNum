@@ -105,7 +105,7 @@ public class BelgiumOrder : MonoBehaviour
             PutComposition();
 
             //after 4 seconds make it close
-            Invoke("NextStep", 4f);
+            Invoke("NextStep", 2f);
 
             CrossThirdStep(12);
         }
