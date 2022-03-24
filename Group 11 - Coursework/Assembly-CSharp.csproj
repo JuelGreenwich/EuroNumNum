@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scripts\Denmark\DenmarkPlates.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaChangePot.cs" />
     <Compile Include="Assets\Scripts\PauseMenuShop.cs" />
@@ -67,7 +64,6 @@
     <Compile Include="Assets\Scripts\Slovakia\MeatAppear.cs" />
     <Compile Include="Assets\Scripts\Audio\Sound.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
-    <Compile Include="Assets\Scripts\ColliderCheck.cs" />
     <Compile Include="Assets\Scripts\EggSpriteChange.cs" />
     <Compile Include="Assets\Scripts\Lists\ListChange.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\AddIntoBowl.cs" />
@@ -85,12 +81,10 @@
     <Compile Include="Assets\Scripts\Belgium\BelgiumOrder.cs" />
     <Compile Include="Assets\Scripts\Denmark\DenmarkItemOnBoard.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainChangePot.cs" />
-    <Compile Include="Assets\Scripts\Glow\GlowObject.cs" />
     <Compile Include="Assets\Scripts\Lists\XCross.cs" />
     <Compile Include="Assets\Scripts\Slovakia\SlovakiaScoop.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainItemOnBoard.cs" />
-    <Compile Include="Assets\Scripts\SceneSave.cs" />
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop\Pickable.cs" />
     <Compile Include="Assets\Scripts\Spain\SpainOrder.cs" />
