@@ -18,8 +18,6 @@ public class StandsManager : MonoBehaviour
 
     void Start()
     {
-        //CounterScript = GameObject.FindGameObjectWithTag("Counter").GetComponent<CounterOrderIngredients>();
-        //CounterScript = GetComponent<CounterOrderIngredients>();
         canEnterBelgium = true;
         canEnterSlovakia = true;
         canEnterDenmark = true;

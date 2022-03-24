@@ -31,28 +31,13 @@ public class EggSpriteChange : MonoBehaviour
                 coll.isTrigger = true; //so that you can use OnTriggerEnter AND so that it doesn't get stoped by the bowl collider
                 rigidBody.isKinematic = false; //false so that you can apply force 
                 rigidBody.AddForce(transform.up * -0.5f); //moves down
-                                                          //ChangeSprite();
 
                 CounterScript.counter = 7;
 
                 FindObjectOfType<AudioManager>().PlayAudio("EggCracked");
             }
         }
-        if (gameObject.tag == "EggRack")
-        {
-            //if (DnD.isPicked == true)
-            //{
-            //    spriteRenderer.sprite = EggMissingSprite;
-            //    spriteRenderer.sortingOrder = 1;
-            //    //ChangeSprite();
-            //}
-        }
 
     }
 
-    public void ChangeSprite()
-    {
-        //spriteRenderer.sprite = newSprite;
-        //spriteRenderer.sortingOrder = 1;
-    }
 }

@@ -23,7 +23,6 @@ public class DragAndDrop : MonoBehaviour
         var inputMousePos = Input.mousePosition;
         inputMousePos.z = 7;
         var mousePosition = (Vector2)Camera.main.ScreenToWorldPoint(inputMousePos);
-        //print(Camera.main.ScreenToWorldPoint(Input.mousePosition));
             transform.position = mousePosition;
         }
     }

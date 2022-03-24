@@ -11,7 +11,6 @@ public class EggStop : MonoBehaviour
         {
             if (other.tag == "Egg")
             {
-                //print("eggTrigger");
                 AddBowl[0].addedInBowl = false;
                 Destroy(other.gameObject);
             }
@@ -21,7 +20,6 @@ public class EggStop : MonoBehaviour
             if (other.tag == "Egg")
             {
                 AddBowl[1].addedInBowl = false;
-                //print("eggTrigger");
                 Destroy(other.gameObject);
             }
         }
