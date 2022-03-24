@@ -1465,8 +1465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 522.5459, y: -37}
-  m_SizeDelta: {x: 648.0497, y: 630.4805}
+  m_AnchoredPosition: {x: 481.07, y: -15.8377}
+  m_SizeDelta: {x: 747.52, y: 666.1558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837229296
 MonoBehaviour:
@@ -1490,19 +1490,24 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 100
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Nantharatnam Miller:\n\u204D Animation \n\u204D Sound effects\n\u204D
-    Music\n\u204D 3D Models\n"
+  m_Text: "DanishMusic: \n\u204D https://freesound.org/people/drogue/sounds/9290/\n\u204D
+    https://freesound.org/people/InspectorJ/sounds/404555/\n\u204D https://freesound.org/people/szegvari/sounds/516209/\n\nSpanish
+    Music: \n\u204D https://freesound.org/people/digifishmusic/sounds/41989/\n\u204D
+    https://freesound.org/people/Robinhood76/sounds/63612/\n\u204D https://freesound.org/people/MarleneAyni/sounds/89608/\n\u204D
+    https://freesound.org/people/Satoration/sounds/57299/\n\nMain Menu Music: \n\u204D
+    https://freesound.org/people/digifishmusic/sounds/41986/\n\u204D https://freesound.org/people/Satoration/sounds/57300/\n\nCrossSound:\n\u204D
+    https://freesound.org/people/conradts/sounds/186007/"
 --- !u!222 &837229297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2372,8 +2377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -364.51926, y: -37.000015}
-  m_SizeDelta: {x: 943.6678, y: 630.4805}
+  m_AnchoredPosition: {x: -364.51926, y: -63.431885}
+  m_SizeDelta: {x: 943.6678, y: 799.3443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717215539
 MonoBehaviour:
@@ -2397,7 +2402,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2405,11 +2410,12 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Rose Nepthys Homayoun:\n\u204D Sprites \n\u204D 3D models \n\u204D UI
-    \n\n\nIasmina Maria Leagan & Juel Miah:\n\u204D Game Mechanics (code)\n\n"
+    \n\nIasmina Maria Leagan & Juel Miah:\n\u204D Game Mechanics (code)\n\nNantharatnam
+    Miller:\n\u204D Animation \n\u204D Sound effects\n\u204D Music\n\u204D 3D Models\n\n"
 --- !u!222 &1717215540
 CanvasRenderer:
   m_ObjectHideFlags: 0
