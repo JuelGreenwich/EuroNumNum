@@ -156,7 +156,7 @@ public class SceneSwitch : MonoBehaviour
         if (!activateShopPanel && !activateBelgiumPanel && !activateDenmarkPanel && !activateSlovakiaPanel && !activateSpainPanel)
         {
             GameOverPanel.SetActive(true);
-            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
+            Invoke("ActivateSounds", 1f);
         }
     }
 
@@ -244,5 +244,10 @@ public class SceneSwitch : MonoBehaviour
                 EnterScene();
             }
         }
+    }
+
+    void ActivateSounds()
+    {
+        FindObjectOfType<AudioManager>().PlayAudio("WellDone");
     }
 }

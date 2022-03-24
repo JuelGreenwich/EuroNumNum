@@ -456,8 +456,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1717215538}
-  - {fileID: 837229295}
   - {fileID: 937122135}
+  - {fileID: 837229295}
+  - {fileID: 1387326240}
   m_Father: {fileID: 1429930654}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1443,7 +1444,7 @@ GameObject:
   - component: {fileID: 837229297}
   - component: {fileID: 837229296}
   m_Layer: 5
-  m_Name: Credits (1)
+  m_Name: Refrence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1461,12 +1462,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198732184}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 481.07, y: -15.8377}
-  m_SizeDelta: {x: 747.52, y: 666.1558}
+  m_AnchoredPosition: {x: -5.1139, y: 8}
+  m_SizeDelta: {x: 559.2922, y: 666.1558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837229296
 MonoBehaviour:
@@ -1490,7 +1491,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1501,13 +1502,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "DanishMusic: \n\u204D https://freesound.org/people/drogue/sounds/9290/\n\u204D
-    https://freesound.org/people/InspectorJ/sounds/404555/\n\u204D https://freesound.org/people/szegvari/sounds/516209/\n\nSpanish
-    Music: \n\u204D https://freesound.org/people/digifishmusic/sounds/41989/\n\u204D
-    https://freesound.org/people/Robinhood76/sounds/63612/\n\u204D https://freesound.org/people/MarleneAyni/sounds/89608/\n\u204D
-    https://freesound.org/people/Satoration/sounds/57299/\n\nMain Menu Music: \n\u204D
-    https://freesound.org/people/digifishmusic/sounds/41986/\n\u204D https://freesound.org/people/Satoration/sounds/57300/\n\nCrossSound:\n\u204D
-    https://freesound.org/people/conradts/sounds/186007/"
+  m_Text: "MAC and Nipper (the dog) (2010). Antique Phonograph Music Program [Various
+    Artists]. [online] freemusicarchive.org. Available at: https://freemusicarchive.org/music/Antique_Phonograph_Music_Program_Various_Artists
+    [Accessed 24 Mar. 2022].\n\nMatyas, E. (2014). ISLAND DREAMING. Soundimage.org.
+    Available at: https://soundimage.org/wp-content/uploads/2014/03/Island-Dreaming.mp3
+    [Accessed 24 Mar. 2022].\n\nRamir C, M. (n.d.). Lazy Camel. Mixkit. Available
+    at: https://mixkit.co/free-stock-music/tag/eastern/.\n\nZapSplat (2022). Cartoon
+    success fanfare Sound Effect - Download FREE - ZapSplat. ZapSplat - Download
+    free sound effects. Available at: https://www.zapsplat.com/music/cartoon-success-fanfare/
+    [Accessed 24 Mar. 2022].\n\nZapsplat (n.d.). Action \u2013 Lip Sound. Available
+    at: https://www.zapsplat.com/music/action-lip-sound/."
 --- !u!222 &837229297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1669,7 +1673,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 198732184}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2091,6 +2095,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172480019}
   m_CullTransparentMesh: 1
+--- !u!1 &1387326239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387326240}
+  - component: {fileID: 1387326242}
+  - component: {fileID: 1387326241}
+  m_Layer: 5
+  m_Name: Refrence (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1387326240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387326239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 198732184}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 570, y: 8}
+  m_SizeDelta: {x: 559.2922, y: 666.1558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1387326241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387326239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9245283, g: 0.8983926, b: 0.6861279, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Cooking Sounds In Game(UR):
+
+    MarleneAnyi (2021). chopping onions.wav
+    by MarleneAyni. [online] Freesound. Available at: https://freesound.org/people/MarleneAyni/sounds/569389/
+    [Accessed 24 Mar. 2022].
+
+
+    MTJohnson (2018). Cracking Egg.wav by MTJohnson.
+    [online] Freesound. Available at: https://freesound.org/people/MTJohnson/sounds/426307/
+    [Accessed 24 Mar. 2022].
+
+
+    rucisko (2016). bubbling hot pot 01 by rucisko.
+    [online] Freesound. Available at: https://freesound.org/people/rucisko/sounds/343744/
+    [Accessed 24 Mar. 2022].
+
+
+    Music for the game (UR):
+
+    Danish Music:
+
+    drogue
+    (2005). acchordian.aif by drogue. [online] Freesound. Available at: https://freesound.org/people/drogue/sounds/9290/
+    [Accessed 24 Mar. 2022].
+
+
+    Spanish Music
+
+    digifishmusic (2007). Flamenco
+    Loop 6.wav by digifishmusic. [online] Freesound. Available at: https://freesound.org/people/digifishmusic/sounds/41989/
+    [Accessed 24 Mar. 2022].'
+--- !u!222 &1387326242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387326239}
+  m_CullTransparentMesh: 1
 --- !u!1 &1429930653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2377,8 +2490,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -364.51926, y: -63.431885}
-  m_SizeDelta: {x: 943.6678, y: 799.3443}
+  m_AnchoredPosition: {x: -550, y: 28.9241}
+  m_SizeDelta: {x: 669.454, y: 614.6323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717215539
 MonoBehaviour:
@@ -2402,7 +2515,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0

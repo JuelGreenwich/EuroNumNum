@@ -107,7 +107,7 @@ public class SpainOrder : MonoBehaviour
         {
             ActivateDragAndDrop("Pasley");
             ActivateDragAndDrop("PasleyCut");
-
+            Invoke("ActivateSounds", 2f);
             CrossSecondStep(15);
         }
         if (CounterScript.counter == 16) 
@@ -115,8 +115,6 @@ public class SpainOrder : MonoBehaviour
             CrossThirdStep(16);
 
             Invoke("ActivateDonePanel", 2f);
-
-            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
 
     }
@@ -165,6 +163,11 @@ public class SpainOrder : MonoBehaviour
         {
             XCrossScript.changeList2 = nr;
         }
+    }
+
+    void ActivateSounds()
+    {
+        FindObjectOfType<AudioManager>().PlayAudio("WellDone");
     }
 
     void ActivateDonePanel()

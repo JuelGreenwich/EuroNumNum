@@ -29,6 +29,8 @@ public class KnifeSlovakia : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 OnionCut1.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
         if (other.gameObject.name == "Onion2")
@@ -37,6 +39,8 @@ public class KnifeSlovakia : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 OnionCut2.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
         if (other.gameObject.name == "Garlic")
@@ -45,6 +49,8 @@ public class KnifeSlovakia : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 GarlicCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
     }

@@ -66,14 +66,16 @@ public class DenmarkOrder : MonoBehaviour
             ActivateDragAndDrop("Lemon");
 
             CrossSecondStep(7);
+            Invoke("ActivateSounds", 2f);
         }
         if (CounterScript.counter == 8)
         {
             CrossThirdStep(8);
+            
             Invoke("ActivateDonePanel", 2f);
             //Invoke("BackToLobby", 5f);
 
-            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
+           
         }
     }
 
@@ -119,12 +121,18 @@ public class DenmarkOrder : MonoBehaviour
     {
         if(DonePanel != null)
         {
-        DonePanel.SetActive(true);
+            DonePanel.SetActive(true);
         }
+    }
+
+    void ActivateSounds()
+    {
+        FindObjectOfType<AudioManager>().PlayAudio("WellDone");
     }
 
     void BackToLobby()
     {
         SceneManager.LoadScene("MainLobby");
     }
+
 }

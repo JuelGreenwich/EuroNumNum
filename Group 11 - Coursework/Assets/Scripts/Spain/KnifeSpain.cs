@@ -31,6 +31,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 OnionCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
 
@@ -40,6 +42,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 PepperCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
 
@@ -49,6 +53,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 GarlicCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
 
@@ -58,6 +64,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SausageCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
 
@@ -67,6 +75,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 TomatoCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
 
@@ -76,6 +86,8 @@ public class KnifeSpain : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 PasleyoCut.SetActive(true);
+
+                FindObjectOfType<AudioManager>().PlayAudio("Knife");
             }
         }
     }

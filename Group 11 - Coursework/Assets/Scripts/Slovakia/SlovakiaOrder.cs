@@ -29,11 +29,12 @@ public class SlovakiaOrder : MonoBehaviour
     {
         if (CounterScript.counter == 1) //Rice
         {
-            ActivateDragAndDrop("Rice"); 
+            ActivateDragAndDrop("Rice");
+            
         }
         if (CounterScript.counter == 2) //Water
         {
-            ActivateDragAndDrop("Water1"); 
+            ActivateDragAndDrop("Water1");
         }
         if (CounterScript.counter == 3) //Meat + CHANGE POT 
         {
@@ -117,7 +118,7 @@ public class SlovakiaOrder : MonoBehaviour
         if (CounterScript.counter == 14) //Pasley
         {
             ActivateDragAndDrop("Water2");
-
+            Invoke("ActivateSounds", 2f);
             CrossSecondStep(14);
         }
         if (CounterScript.counter == 15) //Pasley
@@ -125,8 +126,6 @@ public class SlovakiaOrder : MonoBehaviour
             CrossThirdStep(15);
 
             Invoke("ActivateDonePanel", 2f);
-
-            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
         }
     }
 
@@ -174,6 +173,11 @@ public class SlovakiaOrder : MonoBehaviour
         {
             XCrossScript.changeList2 = nr;
         }
+    }
+
+    void ActivateSounds()
+    {
+        FindObjectOfType<AudioManager>().PlayAudio("WellDone");
     }
 
     void ActivateDonePanel()

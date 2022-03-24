@@ -106,16 +106,14 @@ public class BelgiumOrder : MonoBehaviour
 
             //after 4 seconds make it close
             Invoke("NextStep", 2f);
-
+            Invoke("ActivateSounds", 2f);
             CrossThirdStep(12);
         }
         if (CounterScript.counter == 13)
         {
             CloseWMaker();
 
-            Invoke("ActivateDonePanel", 2f);
-
-            FindObjectOfType<AudioManager>().PlayAudio("WellDone");
+            Invoke("ActivateDonePanel", 2f); 
         }
     }
 
@@ -196,6 +194,11 @@ public class BelgiumOrder : MonoBehaviour
     void NextStep()
     {
         CounterScript.counter = 13;
+    }
+
+    void ActivateSounds()
+    {
+        FindObjectOfType<AudioManager>().PlayAudio("WellDone");
     }
 
     void ActivateDonePanel()
